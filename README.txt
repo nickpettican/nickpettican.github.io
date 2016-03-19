@@ -1,4 +1,4 @@
-Nicolas Pettican's official website base on the Spectral theme by HTML5 UP.
+Nicolas Pettican's official website based on the Spectral theme by HTML5 UP.
 
 Credits:
 
