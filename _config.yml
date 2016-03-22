@@ -4,7 +4,7 @@
 # Site settings
 title: Nicolas Pettican Perez
 description: |
-  Life and data scientist,
+  Data and life scientist,
   entrepreneur, programmer
   and fitness enthusiast.
 owner: Nicolas Pettican Perez
@@ -12,7 +12,7 @@ first_published: 2016
 email: nicolaspettican@gmail.com
 url: "http://nicolaspettican.com"
 social:
-  email: mailto:nicolaspettican@gmail.com
+  #email: mailto:nicolaspettican@gmail.com
   twitter: https://twitter.com/PettiTweets
   github: https://github.com/nickpettican
   linkedin-square: https://linkedin.com/in/nickpettican
