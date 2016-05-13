@@ -30,7 +30,8 @@ social:
   #bitbucket-square:
   #slack:
   #vine:
-
+# Google services
+google_analytics: UA-77716753-1
 # Build settings
 markdown: kramdown
 # permalink: pretty
