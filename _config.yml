@@ -9,7 +9,7 @@ url: "http://www.nicolaspettican.com"
 
 google-tracking-id: ""
 
-force-https: True
+force-https: False
 
 #############
 # HTML Head #
