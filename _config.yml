@@ -47,7 +47,7 @@ lines: # You can add HTML Tags in the Text
   - text: "Market research, project management and business graduate"
   - text: "Experienced in sales and marketing"
 
-me-img: "/img/guy_small.gif"
+me-img: "/img/guy_white.gif"
 
 ##############################
 # Color the browser elements #
@@ -120,7 +120,7 @@ events:
     description: "Actively applied **market research** for assignments from the Manchester Business School and for my role as marketing and events manager in FOLSS and the Resident's Association"
   - image: "/img/timeline/cell_small.gif"
     date: "June 2012 - June 2015"
-    description: "Took modules in pharmacology, microbiology, biotechnology, neuroscience, enterprise and management"
+    description: "Undertook modules in pharmacology, microbiology, biotechnology, neuroscience, enterprise and management"
   - image: "/img/timeline/author.png"
     date: "October 2012 - November 2014"
     description: "Worked as **P.R.**, **salesman**, event staff and **event manager** for different events companies, including Rough Hill"
