@@ -1,41 +1,203 @@
-# Welcome to Jekyll!
-#
 
 # Site settings
-title: Nicolas Pettican Perez
-description: |
-  Data and life scientist,
-  entrepreneur, programmer
-  and amateur science communicator.
-owner: Nicolas Pettican Perez
-first_published: 2016
-email: nicolaspettican@gmail.com
+
 url: "http://www.nicolaspettican.com"
+
+# baseurl: #/home
+
+# Google tracking id
+
+google-tracking-id: ""
+
+force-https: True
+
+#############
+# HTML Head #
+#############
+
+lang: "en"
+author: "Nicolas Pettican"
+title: "Nicolas Pettican"
+description: "Nicolas Pettican's official personal website."
+keywords: "personal, professional, cv, career, jekyll"
+favicon: "/img/favicon.ico"
+
+################
+# Header layout #
+################
+
+black-favicon: "/img/bioinformatics.ico"
+
+background-img: "../img/background.jpg"
+
+##############################
+# Dynamic Text on the Header #
+##############################
+
+dynamic-typing: True
+shuffle: True # Shuffle the lines.
+loop: True
+loop-count: False # Set False for infinite loop, or set any number for finite loop.
+type-speed: 10
+start-delay: 200
+delete-delay: 5000
+lines: # You can add HTML Tags in the Text
+  - text: "Data and life sciences graduate"
+  - text: "Amateur web designer, programmer and animator"
+  - text: "Market research, project management and business graduate"
+  - text: "Experienced in marketing"
+
+me-img: "/img/guy_small.gif"
+
+##############################
+# Color the browser elements #
+##############################
+color-browser: "#000000"
+apple-status-bar-style: "black"
+
+################
+# Web app mode #
+################
+
+web-app-mode: True
+
+# Icons for Web App mode
+
+icon-36p: "/img/web-app/icon-36p.png"
+icon-48p: "/img/web-app/icon-48p.png"
+icon-72p: "/img/web-app/icon-72p.png"
+icon-96p: "/img/web-app/icon-96p.png"
+icon-144p: "/img/web-app/icon-144p.png"
+icon-192p: "/img/web-app/icon-192p.png"
+
+########
+# Blog #
+########
+
+enable-gesture-navigation: True
+
+post-preview-words: 96
+
+paginate: 5
+
+email-share: True
+fb-share: True
+twitter-share: True
+linkedin-share: True
+reddit-share: False
+google-plus-share: True
+tumblr-share: False
+pinterest-share: False
+pocket-share: False
+vkontakte-share: False
+
+disqus-shortname: "pettiblog"
+
+syntax-highlight: True
+
+############
+# Timeline #
+############
+
+events:
+  - image: "/img/timeline/world_small.gif"
+    date: "February 2016 - Today"
+    description: "Using the Adobe Creative cloud (Illustrator, After Effects, Photoshop, Flash, etc) to create illustrations and animations for **science communication**"
+  - image: "/img/timeline/presentation.gif"
+    date: "October 2015 - Today"
+    description: "**President** and **co-founder** of the [Bioinformatics Society](http://uombio.info), delivering workshops on current IT resources for life scientists"
+  - image: "/img/timeline/code_white.gif"
+    date: "September 2015 - Present"
+    description: "Learned to **code** in Perl, Python, Java, R and JavaScript. Learned to **design static websites** with HMTL, CSS and JS."
+  - image: "/img/timeline/bioinformatics.png"
+    date: "September 2015 - Present"
+    description: "Completing a **Master's in Bioinformatics and Systems Biology** at the University of Manchester. Currently completing a structural bioinformatics project"
+  - image: "/img/timeline/grad.jpg"
+    date: "July 2015"
+    description: "Completed a **BSc in Biotechnology with Enterprise** at the University of Manchester. Graduated with a **2.1 with Honours**"
+  - image: "/img/timeline/graph_small.gif"
+    date: "September 2013 - June 2015"
+    description: "Actively applied **market research** for assignments from the Manchester Business School and for my role as marketing and events manager in FOLSS and the Resident's Association"
+  - image: "/img/timeline/cell_small.gif"
+    date: "June 2012 - June 2015"
+    description: "Took modules in pharmacology, microbiology, biotechnology, neuroscience, enterprise and management"
+  - image: "/img/timeline/author.png"
+    date: "October 2012 - November 2014"
+    description: "Worked as **P.R.**, **salesman**, event staff and **event manager** for different events companies, including Rough Hill"
+  - image: "/img/timeline/folss.jpg"
+    date: "October 2012 - March 2015"
+    description: "**Marketing and events manager** and **vice president** of the Faculty of Life Sciences Society (FOLSS). Organised and managed the events and all the promotional material"
+  - image: "/img/timeline/bspp.jpg"
+    date: "July 2014 - September 2014"
+    description: "**Research Assistant** at the University of Sheffield; worked on a BSPP-funded study on Plant Pathology"
+
+# First image of the Timeline
+
+timeline-img: "/img/guy_white.gif"
+
+###########
+# Contact #
+###########
+
+email: "nicolaspettican@gmail.com"
+
+################
+# Author Blurb #
+################
+
+# The author blurb goes underneath blog posts.
+# This works best when your author blurb image has a transparent background, or matches your site background color.
+
+# if the author_blurb is not set, then this feature is skipped
+author_blurb: "Nicolas is an evil, artistic and bilingual data and life scientist (a.k.a. Nikipedia) who can lift, code, get things done and make you laugh!"
+author_blurb_image: "/img/guy_white.gif"
+
+##################
+# Social Buttons #
+##################
+
 social:
-  #email: mailto:nicolaspettican@gmail.com
-  twitter: https://twitter.com/PettiTweets
-  github: https://github.com/nickpettican
-  linkedin-square: https://linkedin.com/in/nickpettican
-  facebook-official: https://facebook.com/nicolas.pettican
-  google-plus-square: https://plus.google.com/u/0/nickpettican
-  #email: /contact/
-  #flickr:
-  #instagram:
-  #youtube-square:
-  #spotify:
-  #stack-overflow:
-  #trello:
-  #foursquare:
-  #linux:
-  #bitbucket-square:
-  #slack:
-  #vine:
-# Google services
-google_analytics: UA-77716753-1
-# Build settings
-markdown: kramdown
-# permalink: pretty
-#sass:
-#  style: compressed
+  - title: "facebook"
+    url: "https://facebook.com/nicolas.pettican"
+  - title: "instagram"
+    url: "https://instagram.com/nickpettican"
+  - title: "twitter"
+    url: "https://twitter.com/pettitweets"
+  - title: "github"
+    url: "https://github.com/nickpettican"
+  - title: "rss"
+    url: "/feed.xml"
+
+############
+# 404 page #
+############
+
+404-img: "/img/code_white.gif"
+
+################################################################################
+
+# NB! Tread carefully if you want to change the variables below this point!
+
+# Sections shown in the index page
+
+pages_list:
+  Aboutme: 'aboutme'
+  Timeline: 'timeline'
+  Contact: 'contact'
+
+# Exclusion list from the generated _site
+
+exclude: ["LICENSE", "README.md", "CONTRIBUTING", "CONTRIBUTORS", "scripts"]
+
+# Pagination path
+
+paginate_path: "blog/page:num/"
+
+# Enable minification SASS
+
+sass:
+  style: compressed
+
 gems:
-  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji

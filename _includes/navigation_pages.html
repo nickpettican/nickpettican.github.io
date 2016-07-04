@@ -1,0 +1,60 @@
+
+<!-- Navigation Start -->
+
+<nav class="navbar navbar-custom-pages navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+        <i class="fa fa-bars"></i>
+      </button>
+      {% if page.section-type == "index" %}
+        <a class="navbar-brand page-scroll" href="#page-top">
+      {% else %}
+        <a class="navbar-brand" href="{{site.baseurl}}/">
+      {% endif %}
+          <div>
+            {% if site.black-favicon %}
+              <img src="{{site.baseurl}}{{ site.black-favicon }}" alt="">
+            {% endif %}
+            {{ site.title }}
+          </div>
+        </a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+      <ul class="nav navbar-nav">
+        {% if page.section-type == "index" %}
+          <!-- Nav linkss -->
+            <li>
+              <a class="page-scroll" href="/about"> About </a>
+            </li>
+            <li>
+              <a class="page-scroll" href="http://nicolaspettican.com#timeline"> Career </a>
+            </li>
+            <li>
+              <a class="page-scroll" href="http://pettiblog.com"> Blog </a>
+            </li>
+            <li>
+              <a class="page-scroll" href="http://nicolaspettican.com#contact"> Contact </a>
+            </li>
+        {% else %}
+          <!-- Nav linkss -->
+            <li>
+              <a class="page-scroll" href="/about"> About </a>
+            </li>
+            <li>
+              <a class="page-scroll" href="http://nicolaspettican.com#timeline"> Career </a>
+            </li>
+            <li>
+              <a class="page-scroll" href="http://pettiblog.com"> Blog </a>
+            </li>
+            <li>
+              <a class="page-scroll" href="http://nicolaspettican.com#contact"> Contact </a>
+            </li>
+        {% endif %}
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Navigation End -->

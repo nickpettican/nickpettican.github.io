@@ -1,0 +1,40 @@
+---
+layout: aboutpage
+section-type: about
+title: About
+permalink: /about
+sitemap:
+  priority: 1.0
+---
+
+
+
+<i class="fa fa-globe"></i>
+	
+I come from a <a href="https://en.wikipedia.org/wiki/Denia">small sea-side town on the East Coast of Spain</a>. Here I volunteered in different organisations (<a href="https://www.facebook.com/ADAHMAtdah">ADAHMA</a>, <a href="http://www.condenadosalbordillo.org/">C.A.B.</a>) and even learned to be a <b>small scale entrepreneur</b> by selling goods grown in my orchard. I did my <b>A-levels</b> in a Spanish college, where I had to be examined on <b>10</b> different <b>subjects</b> including maths, chemistry, physics, biology, English language, English grammar, philosophy, Spanish literature, Catalan language, and history of Spain. Having done the non-science subjects proved very useful in acquiring <b>essay writing <a href="index.html#three">skills</a></b> that helped me along my career. After finishing college I came to study at <b>the University of Manchester</b> in 2012 to pursue my ambition of learning more about <b>biological sciences</b> as well as <b>business and management</b>.
+
+<i class="fa fa-institution"></i>
+
+<p>During my undergraduate course, <b><a href="http://www.ls.manchester.ac.uk/undergraduate/courses/biotechnology/">BSc Biotechnology with Enterprise</a></b>, I learned a great deal about <b>biological sciences</b>, pharmacology and bioethics while also learning about <b>market research</b>, <b>management</b>, <b>entrepreneurship</b> and other business studies. I gained experience in the lab by <b>culturing cells</b> and <b>bacteria</b>, performing <b>genetic modifications</b>, <b>PCR</b> and <b>protein purification</b> among other techniques. At the same time I gained experience in <b>market research</b>, <b>leadership</b> and <b>teamwork</b> through coursework set by the <b><a href="http://www.mbs.ac.uk/">Manchester Business School</a></b>. My extracurricular activities included running the <b><a href="http://manchesterstudentsunion.com/groups/faculty-of-life-sciences-society-folss">Faculty of Life Sciences’ Society</a></b> for which I was elected 1st year representative in 1st year, marketing and events manager in 2nd year and vice president in my 3rd and final year. I participated in solidarity and cultural events through other societies such as <a href="http://manchester.nhsf.org.uk/">NHSF</a>, practiced sports such as athletics and weightlifting and was even mentored by life coaches, which increased my self-motivation and interpersonal skills. During my time in <b>halls of residence</b> I was democratically elected <b>event manager</b>, working towards providing a fun and enjoyable year for the residents. To fund my studies I had to <b>work part-time</b> throughout my degree in <b>public relations</b>, <b>event management</b> and even <b>sales management</b> in different local companies. This allowed me to acquire <a href="index.html#three">skills</a> in <b>communication</b>, <b>sales techniques</b>, <b>marketing strategies</b> and <b>management</b>.</p>
+
+<i class="fa fa-leaf"></i>
+
+<p>In the <b>summer</b> before starting my final year I undertook a <b>research project</b> at the <b><a href="https://www.sheffield.ac.uk/aps">University of Sheffield</a></b> with Dr Hughes <a href="http://www.bspp.org.uk/funds/vacation.php">funded by the <b>BSPP</b></a> in which I looked at the differences in the metabolome during fungal infection in wheat. While doing my project I was privileged to accompany Dr Hughes across the UK to aid in his research and attend the BSPP Presidential Conference.</p>
+
+<i class="fa fa-graduation-cap"></i>
+
+<p>During my <b>final year</b> I attended the <b>XING business game</b>, aimed at designing and presenting a business plan together with your team, for which I got awarded for <b>best presenter</b>. I volunteered for different events organised by bodies in the University of Manchester such as <a href="http://www.engagement.manchester.ac.uk/resources/links/">Outreach Events</a> and <a href="http://mlm.humanities.manchester.ac.uk/">Multilingual Manchester</a>. A highlight of my final year is a <b>project</b> set by the <b>MBS</b>, where I had to develop a <b>product</b> and deliver a <b>pitch</b> in order to <b>secure funding</b>, which taught me valuable skills for business. My <b>final year project</b>, adjacent to the former, involved the use of <b>computational work</b> in order to study the variability of a particular class of P450 enzymes: P450-BM3. This led me to realise the need to improve my computational <a href="index.html#three">skills</a>, which led to my next stepping stone in life: to undertake a Master's in Computational Biology. I then <b>graduated with a 2.1 with honours</b> in the summer of 2015.</p>
+
+<i class="fa fa-money"></i>
+
+<p>Before starting my <b>Master’s</b> I needed to <b>fund it</b>, thus I acquired a catering job in <b><a href="https://www.wbstudiotour.co.uk/">Warner Brother’s Studio London</a></b>. Despite not being part of my field of study or expertise, this job proved to be a <b>challenge that I managed to surpass</b>. The constant pressure of serving on average 5000 customers a day <b>improved my endurance</b> and the reward scheme for attaining the <b>highest sales</b> pushed me to eventually achieve the highest number of average “spend per head” in my department. During my spare time I learned about coding and optimised my <a href="index.html#three">skills</a> in IT.</p>
+
+<i class="fa fa-laptop"></i>
+
+<p>At the <b>present</b> time I am completing a <b><a href="http://www.manchester.ac.uk/study/masters/courses/list/08854/bioinformatics-and-systems-biology-msc/">Master’s in Computational Biology (Bioinformatics)</a></b>, considered one of the <a href="http://bib.oxfordjournals.org/content/8/2/69.full">fastest growing field of biology</a> which may have the biggest impact on the health industry in the near future. Despite the <b>steep learning curve</b> I have now become <b>more computer savvy</b>. I have learned to program in different languages such as <b>Python 2.7</b>, <b>Perl</b>, <b>R</b> and <b>Java</b> and during my <b>spare time</b> I take online courses to <b>learn more</b> about <b><a href="https://www.udemy.com/the-ultimate-python-programming-course/">Python</a></b> and <b><a href="https://www.udemy.com/complete-web-developer-course/">web designing</a></b> with <b>HTML</b>, <b>CSS</b> and <b>JS</b>. I have also learned a great deal about <b>data analysis</b>, acquiring skills which I currently apply daily for my projects. As another highlight I <b>co-founded</b> the <b><a href="http://uombio.info/">Bioinformatics Society</a></b>, which delivers workshops and talks about techniques and resources that can aid researchers and students when analysing their data. I am also currently working for the University as a <b>Student Ambassador</b>, providing tours, information and answering queries through emails and telephone calls to prospective undergraduate and postgraduate students.</p>
+
+<i class="fa fa-sun-o"></i>
+
+<p>I am quite <b>proactive</b>, so my day to day activities outside of my degree and work include taking <b>online courses</b>, <b>exercising</b> outside or in the gym, creating Animations and written content for my future <b><a href="http://www.pettiblog.com">blog</a></b> and <b>planning</b> ahead for innovative projects and trips. I enjoy <b>science communication</b> and I try to learn as much of a topic as I can before giving my view and opinion. In fact I am in the process of creating a <b><a href="http://www.pettiblog.com">blog</a></b> where I can <b>share my views</b> and <b>communicate science</b> in a simple and understandable way as well as share lifestyle advice which I apply for <b>self-motivation</b> and improving my focus and drive.</p>
+
+

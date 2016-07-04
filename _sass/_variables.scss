@@ -1,0 +1,45 @@
+// Variables
+
+// Main color
+$primary-color: #000;
+
+// Black
+$black: #000;
+
+// Dark-dark grey
+$dark-dark-grey: #191919;
+
+// Dark grey
+$dark-grey: #333333;
+
+// Grey
+$grey: #666666;
+
+// Light grey
+$light-grey: #999999;
+
+// Light-light grey
+$light-light-grey: #cccccc;
+
+// Very light grey
+$very-light-grey: #e5e5e5;
+
+// White
+$white: #fff;
+
+// Anchor color
+$secondary-color: #00cdff;
+
+// Font color
+$font-color: #fff;
+
+$navbar-text-shadow: true;
+$header-text-shadow: true;
+$header-background-color: $primary-color;
+$intro-text-color: $font-color;
+$navbar-color: $font-color;
+$navbar-lg-collapse-background-color: $header-background-color;
+$navbar-lg-background: transparent;
+$navbar-sm-background-color: $navbar-lg-collapse-background-color;
+
+$social-buttons-color: $secondary-color;
