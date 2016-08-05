@@ -275,6 +275,7 @@ a {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
+    background-attachment: fixed;
     -o-background-size: cover;
     .intro-body {
         display: table-cell;
@@ -290,6 +291,7 @@ a {
         }
     }
     @media(min-width:768px) {
+        background-attachment: static;
         height: 100%;
         padding: 0;
         .intro-body {
