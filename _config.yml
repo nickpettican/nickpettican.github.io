@@ -29,6 +29,7 @@ favicon: "/img/favicon.ico"
 black-favicon: "/img/bioinformatics.ico"
 
 background-img: "../img/back_focus.jpg"
+blog-landing-img: "../img/desktop.jpg"
 
 ##############################
 # Dynamic Text on the Header #

@@ -261,6 +261,30 @@ a {
 	}
 }
 
+.img_page {
+    display: table;
+    width: 100%;
+    height: 100%;
+    padding: 100px 0;
+    text-align: center;
+    color: $intro-text-color;
+    {% if site.blog-landing-img %}
+    background: url({{ site.blog-landing-img }}) no-repeat bottom center scroll;
+    {% endif %}
+    background-color: $header-background-color;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    background-attachment: static;
+    -o-background-size: cover;
+    @media(min-width:768px) {
+        background-attachment: fixed;
+        height: 100%;
+        padding: 0;
+    }
+}
+
+
 .intro {
     display: table;
     width: 100%;
