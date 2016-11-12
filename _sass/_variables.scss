@@ -35,11 +35,15 @@ $font-color: #fff;
 
 $navbar-text-shadow: true;
 $header-text-shadow: true;
+// primary color is black
 $header-background-color: $primary-color;
+// font color is white
 $intro-text-color: $font-color;
 $navbar-color: $font-color;
+// header-backgr color is black
 $navbar-lg-collapse-background-color: $header-background-color;
 $navbar-lg-background: transparent;
+// navbar-lg-collapse-back-color is black
 $navbar-sm-background-color: $navbar-lg-collapse-background-color;
 
 $social-buttons-color: $secondary-color;

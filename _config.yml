@@ -19,7 +19,7 @@ lang: "en"
 author: "Nicolas Pettican"
 title: "Nicolas Pettican"
 description: "Nicolas Pettican's official personal website."
-keywords: "personal, professional, cv, career, jekyll"
+keywords: "nicolas pettican, nick pettican, pettican, healthcare, programming, marketing, pharma, CV, jekyll"
 favicon: "/img/favicon.ico"
 
 ################
@@ -28,7 +28,7 @@ favicon: "/img/favicon.ico"
 
 black-favicon: "/img/bioinformatics.ico"
 
-background-img: "../img/background.jpg"
+background-img: "../img/back_focus.jpg"
 
 ##############################
 # Dynamic Text on the Header #
@@ -42,10 +42,10 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "Data and life sciences graduate"
-  - text: "Amateur web designer, programmer and animator"
-  - text: "Market research, project management and business graduate"
-  - text: "Experienced in sales and marketing"
+  - text: "Data analyst"
+  - text: "Python programmer"
+  - text: "Market researcher"
+  - text: "Healthcare communicator"
 
 me-img: "/img/guy_white.gif"
 
@@ -74,7 +74,7 @@ icon-192p: "/img/web-app/icon-192p.png"
 # Blog #
 ########
 
-enable-gesture-navigation: True
+enable-gesture-navigation: False
 
 post-preview-words: 96
 
@@ -100,39 +100,42 @@ syntax-highlight: True
 ############
 
 events:
-  - image: "/img/timeline/world_small.gif"
-    date: "February 2016 - Today"
-    description: "Using the Adobe Creative cloud (Illustrator, After Effects, Photoshop, Flash, etc) to create illustrations and animations for **science communication**"
-  - image: "/img/timeline/askme.png"
-    date: "January 2016 - Today"
-    description: "Represent the student body and the University while providing information for prospective postgraduate students (home and international)."
-  - image: "/img/timeline/presentation.gif"
-    date: "October 2015 - Today"
-    description: "**President** and **co-founder** of the [Bioinformatics Society](http://uombio.info), delivering workshops on current IT resources for life scientists"
-  - image: "/img/timeline/code_white.gif"
-    date: "September 2015 - Present"
-    description: "Learned to **code** in Perl, Python, Java, R and JavaScript. Learned to **design static websites** with HMTL, CSS and JS."
+  - image: "/img/timeline/lynx.png"
+    date: "September 2016 - Present"
+    description: "**Research Executive** for Strategy and Planning at **Havas Lynx**"
   - image: "/img/timeline/bioinformatics.png"
     date: "September 2015 - Present"
-    description: "Completing a **Master's in Bioinformatics and Systems Biology** at the University of Manchester. Currently completing a structural bioinformatics project"
+    description: "Graduated with a **Master's in Bioinformatics and Systems Biology** from the University of Manchester"
+  - image: "/img/timeline/world_small.gif"
+    date: "February 2016 - Today"
+    description: "Creating illustrations and animations for **science communication** as a hobby"
+  - image: "/img/timeline/askme.png"
+    date: "January 2016 - August 2016"
+    description: "University of Manchester Postgraduate Student Ambassador"
+  - image: "/img/timeline/presentation.gif"
+    date: "October 2015 - August 2016"
+    description: "**President** of the University of Manchester [Bioinformatics Society](http://uombio.info)"
+  - image: "/img/timeline/code_white.gif"
+    date: "October 2015 - Present"
+    description: "Learned to **code** in Python, R, Java and Perl. Learned **web design** with HTML, CSS and JavaScript"
   - image: "/img/timeline/grad.jpg"
     date: "July 2015"
-    description: "Completed a **BSc in Biotechnology with Enterprise** at the University of Manchester. Graduated with a **2.1 with Honours**"
+    description: "Graduated with a **BSc with Honours in Biotechnology with Enterprise** from the University of Manchester"
   - image: "/img/timeline/graph_small.gif"
     date: "September 2013 - June 2015"
-    description: "Actively applied **market research** for assignments from the Manchester Business School and for my role as marketing and events manager in FOLSS and the Resident's Association"
+    description: "Learned **Market Research** and **Data Analysis** for assignments in the Manchester Business School"
   - image: "/img/timeline/cell_small.gif"
     date: "June 2012 - June 2015"
-    description: "Undertook modules in pharmacology, microbiology, biotechnology, neuroscience, enterprise and management"
+    description: "Undertook modules in Pharmacology, Microbiology, Biotechnology, Neuroscience, Enterprise and Management"
   - image: "/img/timeline/folss.jpg"
     date: "October 2012 - March 2015"
-    description: "**Marketing and events manager** and **vice president** of the Faculty of Life Sciences Society (FOLSS). Organised and managed the events and the promotional material"
-  - image: "/img/timeline/author.png"
+    description: "**Marketing & Events Manager** and **Vice President** of the Faculty of Life Sciences Society"
+  - image: "/img/timeline/social_media.jpg"
     date: "October 2012 - November 2014"
-    description: "Worked as **P.R.**, **salesman**, event staff and **event manager** for different events companies, including Rough Hill"
+    description: "**P.R.**, **Marketing Rep** and **Event Manager**"
   - image: "/img/timeline/bspp.jpg"
     date: "July 2014 - September 2014"
-    description: "**Research Assistant** at the University of Sheffield; worked on a BSPP-funded study on Plant Pathology"
+    description: "**Research Assistant** at the University of Sheffield"
 
 # First image of the Timeline
 
@@ -152,8 +155,8 @@ email: "nicolaspettican@gmail.com"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "Nicolas is an evil, artistic and bilingual data and life scientist (a.k.a. Nikipedia) who can lift, code, get things done and make you laugh!"
-author_blurb_image: "/img/guy_white.gif"
+author_blurb: "Evil Scientist | Healthcare Communicator | Programmer | Coffee Drinker | Analyst | Spanglish"
+author_blurb_image: "/img/world_small.gif"
 
 ##################
 # Social Buttons #
@@ -177,7 +180,7 @@ social:
 # 404 page #
 ############
 
-404-img: "/img/code_white.gif"
+four-o-four-img: "/img/code_white.gif"
 
 ################################################################################
 
