@@ -62,8 +62,8 @@
 						<a href="#" class="dropdown-toggle shows-more-dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" itemprop="url" onclick="ga('send', 'event', 'Navigation', 'click', 'Projects Open List');">Projects <i class="fa fa-angle-down"></i></a>
 						<ul class="dropdown-menu">
 							<li><a class="page-scroll" href="#projects" onclick="ga('send', 'event', 'Navigation', 'click', 'Projects Overview');">Overview</a></li>
-							<!-- <li role="separator" class="divider"></li>
-							<li><a href="http://www.nicolaspettican.com/SEO-auditing" onclick="ga('send', 'event', 'Navigation', 'click', 'SEO');">SEO Auditing</a></li> -->
+							<li role="separator" class="divider"></li>
+							<li><a href="http://www.nicolaspettican.com/SEO-sherlock" onclick="ga('send', 'event', 'Navigation', 'click', 'SEO');">SEO and Sherlock</a></li>
 						</ul>
 
 					</li>
@@ -82,7 +82,7 @@
 		<div class="city main-city"></div>
 	</header>
 	<div id="main-content" itemscope itemtype="http://schema.org/Article" itemref="profilePic">
-		<meta itemscope itemprop="mainEntityOfPage" itemType="https://schema.org/WebPage" itemid="http://www.nicolaspettican.com">
+		<link itemprop="mainEntityOfPage" href="http://www.nicolaspettican.com">
 		<meta itemprop="inLanguage" content="en">
 		<meta itemprop="isFamilyFriendly" content="true">
 		<meta itemprop="datePublished" content="2017-05-15">
@@ -99,10 +99,11 @@
 										<span itemprop="headline">Hi, I'm <span itemtype="https://schema.org/Organization" itemscope itemprop="publisher" itemref="profilePic">
 											<span itemprop="name">Nicolas Pettican</span>
 											<span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
-											<meta itemprop="url" content="http://www.nicolaspettican.com/img/nicolas-pettican-lg.png">
-											<meta itemprop="width" content="800">
-											<meta itemprop="height" content="800">
-										</span></span>
+												<meta itemprop="url" content="http://www.nicolaspettican.com/img/nicolas-pettican-lg.png">
+												<meta itemprop="width" content="800">
+												<meta itemprop="height" content="800">
+											</span>
+										</span>
 									</strong>
 								</h1>
 								<hr>
@@ -125,7 +126,7 @@
 									<p>Intrigued by smart data, digital design, strategy, machine learning, how these are applied in pharma and healthcare, superb food, travelling and a good paperback book.</p>
 									<p class="blue-text"><strong>Much of marketing is now driven by data, automation and technology. Having extensive knowledge in this allows me to ask the right questions and make intelligent decisions that will improve your digital presence.</strong></p>
 									<p>
-										<span onclick="ga('send', 'event', 'Customer', 'click', 'Contact');" class="btn btn-cta">
+										<span onclick="ga('send', 'event', 'Customer', 'click', 'Contact CTA');" class="btn btn-cta">
 											<span>Say no more, let's talk.</span>
 										</span>
 									</p>
@@ -251,14 +252,16 @@
 					</div>
 					<div class="row">
 						<div class="col-sm-3">
-							<a href="/SEO-auditing.html"><img src="css/img/sherlock.png" alt="Sherlock - an automated SEO auditor algorithm by Nicolas Pettican" class="col-sm-logo"></a>
+							<a href="/SEO-sherlock.html" onclick="ga('send', 'event', 'Navigation', 'click', 'SEO From Sherlock Blurb');">
+								<img src="css/img/sherlock.png" alt="Sherlock - an automated SEO auditor algorithm by Nicolas Pettican" class="col-sm-logo">
+							</a>
 						</div>
 						<div class="col-sm-9">
 							<div class="box-wrapper-right">
 								<dl>
 									<dt class="dt-heading">SEO Auditing</dt>
 									<dt class="dt-subheading">Sherlock algorithm</dt>
-									<dd class="hide-content show-more-list over-hidden">So, you have an amazing website, but it's not findable on Google search. You need to optimise it. To automate the boring parts, I created an on-page technical and content SEO audit algorithm that analyses the entire website scoring it according to the parameters set by the <a href="https://support.google.com/webmasters/answer/35769?hl=en">Google Webmaster Guidelines</a> and best practices for SEO in 2017. <em class="blue-text">S</em>h<em class="blue-text">e</em>rl<em class="blue-text">o</em>ck provides a complete breakdown of the elements that are crucial for snatching the top position in the Google results page and how these can/should be improved. Among other things, it checks for <a href="#" class="reveals-more" onclick="ga('send', 'event', 'SeeMore', 'click', 'Sherlock List');">the following <i class="fa fa-angle-down"></i></a></dd> 
+									<dd class="hide-content show-more-list over-hidden">So, you have an amazing website, but it's not findable on Google search. You need to optimise it. To automate the boring parts, I created an on-page technical and content SEO audit algorithm that analyses the entire website scoring it according to the parameters set by the <a href="https://support.google.com/webmasters/answer/35769?hl=en" onclick="ga('send', 'event', 'Outbound', 'click', 'Webmaster Guidelines');">Google Webmaster Guidelines</a> and best practices for SEO in 2017. <em class="blue-text">S</em>h<em class="blue-text">e</em>rl<em class="blue-text">o</em>ck provides a complete breakdown of the elements that are crucial for snatching the top position in the Google results page and how these can/should be improved. Among other things, it checks for <a href="#" class="reveals-more" onclick="ga('send', 'event', 'SeeMore', 'click', 'Sherlock List');">the following <i class="fa fa-angle-down"></i></a></dd> 
 									<ul class="hide-list over-hidden">
 										<li>Sitemap</li>
 										<li>Follow links</li>
@@ -313,7 +316,7 @@
 				</span>
 				<div class="feedback-contents">
 					<div class="row text-center">
-						<h2><strong>Rate this website!</strong></h2>
+						<h2><strong>Leave some feedback</strong></h2>
 						<hr>
 					</div>
 					<div class="row">
@@ -354,7 +357,7 @@
 			<div class="popup-inner">
 				<h2 class="text-center"><strong>Contact</strong></h2>
 				<div>
-					<p>You can contact me at <strong class="blue-text"><a href="mailto:nicolaspettican@gmail.com">nicolaspettican@gmail.com</a></strong> or using my online form bellow.</p>
+					<p>You can contact me at <strong class="blue-text"><a href="mailto:nicolaspettican@gmail.com" onclick="ga('send', 'event', 'Customer', 'click', 'Email');">nicolaspettican@gmail.com</a></strong> or using my online form bellow.</p>
 					<div>
 						<form id="contact-form" method="POST" action="http://formspree.io/nicolaspettican@gmail.com">
 							<p>
