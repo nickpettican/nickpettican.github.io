@@ -387,30 +387,32 @@
 		</div>
 	</div>
 	<div id="contact" class="hide-popup">
-		<div class="popup-main">
-			<span class="top-right">
-				<a href="#" class="close-contact" onclick="ga('send', 'event', 'Customer', 'click', 'Close Contact');"><i class="fa fa-remove"></i></a>
-			</span>
-			<div class="popup-inner">
-				<h2 class="text-center"><strong>Contact</strong></h2>
-				<div>
-					<p>You can contact me at <strong class="blue-text"><a href="mailto:nicolaspettican@gmail.com" onclick="ga('send', 'event', 'Customer', 'click', 'Email');">nicolaspettican@gmail.com</a></strong> or using my online form bellow.</p>
+		<div id="contact-wrapper" class="popup-wrapper-normal">
+			<div class="popup-main">
+				<span class="top-right">
+					<a href="#" class="close-contact" onclick="ga('send', 'event', 'Customer', 'click', 'Close Contact');"><i class="fa fa-remove"></i></a>
+				</span>
+				<div class="popup-inner">
+					<h2 class="text-center"><strong>Contact</strong></h2>
 					<div>
-						<form id="contact-form" method="POST" action="http://formspree.io/nicolaspettican@gmail.com">
-							<p>
-								Name <br>
-								<input type="text" name="name" placeholder="Your name" required>
-							</p>
-							<p>
-								Email <br>
-								<input type="email" name="email" placeholder="Your email" required>
-							</p>
-							<p>
-								Message <br>
-								<textarea name="message" placeholder="Your message" required></textarea>
-							</p>
-							<button type="submit"><i class="fa fa-send"></i></button>
-						</form>
+						<p>You can contact me at <strong class="blue-text"><a href="mailto:nicolaspettican@gmail.com" onclick="ga('send', 'event', 'Customer', 'click', 'Email');">nicolaspettican@gmail.com</a></strong> or using my online form bellow.</p>
+						<div>
+							<form id="contact-form" method="POST" action="http://formspree.io/nicolaspettican@gmail.com">
+								<p>
+									Name <br>
+									<input type="text" name="name" placeholder="Your name" required>
+								</p>
+								<p>
+									Email <br>
+									<input type="email" name="email" placeholder="Your email" required>
+								</p>
+								<p>
+									Message <br>
+									<textarea name="message" placeholder="Your message" required></textarea>
+								</p>
+								<button type="submit"><i class="fa fa-send"></i></button>
+							</form>
+						</div>
 					</div>
 				</div>
 			</div>

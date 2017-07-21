@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head itemscope itemtype="http://schema.org/WebSite">
 	<!-- The basic stuff -->
 	<meta charset="utf-8">
 	<meta name="description" content="This is the website you are probably looking for if you googled Nicolas Pettican. Read about my background and my projects.">
@@ -9,7 +9,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="author" content="Nicolas Pettican">
 	<meta name="keywords" content="nicolas pettican, nick pettican, Manchester, SEO, analytics, data science, nicolas pettican cv, nicolas pettican healthcare">
-	<title>Nicolas Pettican | Data-Driven Solutions</title>
+	<title itemprop="name">Nicolas Pettican | Data-Driven Solutions</title>
 	<!-- OG for Facebook -->
 	<meta property="og:title" content="Nicolas Pettican | Data-Driven Solutions" />
 	<meta property="og:image" content="http://www.nicolaspettican.com/img/nicolaspettican-header.jpg"/>
@@ -29,7 +29,7 @@
 	<link rel="stylesheet" type="text/css" href="/css/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="/css/font-awesome-4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="/css/main.css">
-	<link rel="canonical" href="http://www.nicolaspettican.com">
+	<link rel="canonical" href="http://www.nicolaspettican.com" itemprop="url">
 	<link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
 	<!-- Google Analytics -->
 	<script>
@@ -113,7 +113,7 @@
 									<link itemprop="sameAs" href="https://linkedin.com/in/nicolaspettican">
 									<link itemprop="sameAs" href="https://facebook.com/nicolas.pettican">
 									<p><em>Also known as Nick Pettican.</em></p>
-									<p>Digital Marketer. Biotech Scientist. Software Developer. <a href="https://www.google.com/partners/#i_profile;idtf=101910844678616654539;" onclick="ga('send', 'event', 'Outbound', 'click', 'Google Partner');">Google Partner</a>.<br>Avid coffee drinker.</p>
+									<p>Data Scientist. Digital Marketer. Software Developer. <a href="https://www.google.com/partners/#i_profile;idtf=101910844678616654539;" onclick="ga('send', 'event', 'Outbound', 'click', 'Google Partner');">Google Partner</a>. Avid coffee drinker.</p>
 									<figure itemprop="image" itemscope itemtype="https://schema.org/ImageObject" id="profilePic">
 										<meta itemprop="representativeOfPage" content="true">
 										<meta itemprop="url" content="http://www.nicolaspettican.com/img/nicolas-pettican-lg.png">
@@ -122,10 +122,12 @@
 										<img  width="100%" title="Profile picture of Nicolas Pettican." class="profile-pic" alt="Profile picture of Nicolas Pettican." src="img/nicolas-pettican.png" itemprop="contentUrl" srcset="img/nicolas-pettican.png 400w, img/nicolas-pettican-lg.png 800w">
 									</figure>
 									<p>Alumnus of <span itemprop="alumniOf"><a href="http://www.manchester.ac.uk/" onclick="ga('send', 'event', 'Outbound', 'click', 'UoM');">The University of Manchester</a></span> School of Biological Sciences, School of Computer Science and Manchester Business School.</p>
-									<p>Currently working in <strong>Strategy</strong> and <strong>Planning</strong> in a leading global Healthcare Communications and Pharma Marketing group: <a href="https://www.havaslynx.com/" onclick="ga('send', 'event', 'Outbound', 'click', 'Havas Lynx');"><span itemprop="worksFor">Havas Lynx</span></a>.</p>
+									<p>Currently working in <strong>Strategic Planning</strong> in a leading global Healthcare Communications and Pharmaceutical Marketing group: <a href="https://www.havaslynx.com/" onclick="ga('send', 'event', 'Outbound', 'click', 'Havas Lynx');"><span itemprop="worksFor">Havas Lynx</span></a>.</p>
 									<p>Intrigued by smart data, digital design, strategy, machine learning, how these are applied in pharma and healthcare, superb food, travelling and a good paperback book.</p>
 									<p class="blue-text"><strong>Much of marketing is now driven by data, automation and technology. Having extensive knowledge in this allows me to ask the right questions and make intelligent decisions that will improve your digital presence.</strong></p>
 									<p>
+									<p>With such an overabundance of data, it can be overwhelming. Luckily I love diving deep into the data to help you see the story the numbers are telling.</p>
+									<br>
 										<span onclick="ga('send', 'event', 'Customer', 'click', 'Contact CTA');" class="btn btn-cta">
 											<span>Say no more, let's talk.</span>
 										</span>
@@ -230,17 +232,17 @@
 								<dl>
 									<dt class="dt-heading">Digital Landscaping</dt>
 									<dt class="dt-subheading">InterLynx algorithm</dt>
-									<dd class="hide-content show-more-list over-hidden">Understanding your Digital Landscape is vital to grow your business in the online world. For this, I created a powerful web-crawling algorithm that identifies the top performing websites for a given topic and what could be driving their performance. It uses Google Search to identify the websites delivering the most relevant content for each country for each keyword (or question), delivering both desktop and mobile results. InterLynx then performs a simple technical and content SEO analysis on each page (including PDFs) to identify the networks these form and finally outputs an Excel workbook with <a href="#" class="reveals-more" onclick="ga('send', 'event', 'SeeMore', 'click', 'InterLynx List');">the following <i class="fa fa-angle-down"></i></a></dd>
+									<dd class="hide-content show-more-list over-hidden">Understanding your digital landscape is vital to grow your business in the online world. For this, I created a powerful web-crawling algorithm that identifies the top performing websites for a given topic and tells you what could be driving their performance. <strong class="blue-text">InterLynx</strong> then tells you which are using the Google Display Network, meaning you can leverage these websites and drive traffic to yours via display advertising. It works with Google's index to identify the websites delivering the most relevant content for each country for each keyword (or question), delivering both desktop and mobile results. InterLynx then performs a simple technical and content SEO analysis on each page (including PDFs) to identify how they are connected and finally outputs <a href="#" class="reveals-more" onclick="ga('send', 'event', 'SeeMore', 'click', 'InterLynx List');">the following <i class="fa fa-angle-down"></i></a></dd>
 									<ul class="hide-list over-hidden">
 										<li>Estimated CTR</li>
 										<li>Backlinks</li>
-										<li>Outbound Links</li>
-										<li>On-page Advertising</li>
+										<li>Outbound links</li>
+										<li>On-page advertising</li>
 										<li>Videos</li>
-										<li>Apps</li>
-										<li>Organic Keywords</li>
+										<li>Links to apps</li>
+										<li>Organic keywords</li>
 										<li>Social Media profiles</li>
-										<li>Competitor Presence</li>
+										<li>Competitor presence</li>
 										<li>And more...</li>
 									</ul>
 									<div class="show-more">
@@ -252,7 +254,7 @@
 					</div>
 					<div class="row">
 						<div class="col-sm-3">
-							<a href="/SEO-sherlock.html" onclick="ga('send', 'event', 'Navigation', 'click', 'SEO From Sherlock Blurb');">
+							<a href="/SEO-sherlock.html" onclick="ga('send', 'event', 'Navigation', 'click', 'SEO From Sherlock Logo');">
 								<img src="css/img/sherlock.png" alt="Sherlock - an automated SEO auditor algorithm by Nicolas Pettican" class="col-sm-logo">
 							</a>
 						</div>
@@ -260,8 +262,10 @@
 							<div class="box-wrapper-right">
 								<dl>
 									<dt class="dt-heading">SEO Auditing</dt>
-									<dt class="dt-subheading">Sherlock algorithm</dt>
-									<dd class="hide-content show-more-list over-hidden">So, you have an amazing website, but it's not findable on Google search. You need to optimise it. To automate the boring parts, I created an on-page technical and content SEO audit algorithm that analyses the entire website scoring it according to the parameters set by the <a href="https://support.google.com/webmasters/answer/35769?hl=en" onclick="ga('send', 'event', 'Outbound', 'click', 'Webmaster Guidelines');">Google Webmaster Guidelines</a> and best practices for SEO in 2017. <em class="blue-text">S</em>h<em class="blue-text">e</em>rl<em class="blue-text">o</em>ck provides a complete breakdown of the elements that are crucial for snatching the top position in the Google results page and how these can/should be improved. Among other things, it checks for <a href="#" class="reveals-more" onclick="ga('send', 'event', 'SeeMore', 'click', 'Sherlock List');">the following <i class="fa fa-angle-down"></i></a></dd> 
+									<a href="/SEO-sherlock.html" onclick="ga('send', 'event', 'Navigation', 'click', 'SEO From Sherlock Blurb');">
+										<dt class="dt-subheading">Sherlock algorithm</dt>
+									</a>
+									<dd class="hide-content show-more-list over-hidden">So, you have an amazing website, but it's not findable on Google search. You need to optimise it. To automate the boring parts, I created an on-page technical and content SEO audit algorithm that analyses the entire website scoring it according to the parameters set by the <a href="https://support.google.com/webmasters/answer/35769?hl=en" onclick="ga('send', 'event', 'Outbound', 'click', 'Webmaster Guidelines');">Google Webmaster Guidelines</a> and best practices for SEO in 2017. <strong class="blue-text">Sherlock</strong> provides a complete breakdown of the elements that are crucial for snatching the top position in the Google results page and how these can/should be improved. Among other things, it checks for <a href="#" class="reveals-more" onclick="ga('send', 'event', 'SeeMore', 'click', 'Sherlock List');">the following <i class="fa fa-angle-down"></i></a></dd> 
 									<ul class="hide-list over-hidden">
 										<li>Sitemap</li>
 										<li>Follow links</li>
@@ -299,6 +303,27 @@
 									<dd class="hide-content over-hidden">Since I work in the web, it's only fitting that I have my own website. And what better way to improve SEO and web development than to create your own websites? This mobile-first, <a href="https://moz.com/learn/seo/schema-structured-data">Schema</a>-formatted website created by yours truly, serves as my online CV / portfolio. From the code, illustrations, content to the very last pixel, you betcha it's all original and made to please your eyes. Please leave some <a id="willing-feedback" href="#" onclick="ga('send', 'event', 'Navigation', 'click', 'Feedback');">feedback</a>, as I am constantly updating it and would love your input.</dd>
 									<div class="show-more">
 										<a href="#" class="reveals-more" onclick="ga('send', 'event', 'SeeMore', 'click', 'Web Dev');">See more <i class="fa fa-angle-down"></i></a>
+									</div>
+								</dl>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-3">
+							<a href="/SEO-sherlock.html" onclick="ga('send', 'event', 'Outbound', 'click', 'Instabot Github');">
+								<img src="css/img/instabot.png" alt="Social Media Automated Research Tools logo" class="col-sm-logo">
+							</a>
+						</div>
+						<div class="col-sm-9">
+							<div class="box-wrapper-right">
+								<dl>
+									<dt class="dt-heading">Social Media Automation</dt>
+									<a href="/SEO-sherlock.html" onclick="ga('send', 'event', 'Outbound', 'click', 'Instabot Github');">
+										<dt class="dt-subheading">S.M.A.R.T.</dt>
+									</a>
+									<dd class="hide-content over-hidden">Social Media Automated Research Tools are just that, a suite of tools that either automate social media analysis or automate your social media activity. So far the scope is just Instagram, for which you have <a href="https://github.com/nickpettican/SMARTEE" onclick="ga('send', 'event', 'Outbound', 'click', 'SMARTEE Github');">SMARTEE</a>, to Evaluate Engagement, and <a href="https://github.com/nickpettican/InstaBot" onclick="ga('send', 'event', 'Outbound', 'click', 'Instabot Github');">Instabot</a>, which completely automates your audience engagement activity. SMARTEE tracks hashtags to either find brand ambassadors among your employees or identify the influencers you can partner with to reach your audience. Instabot will directly engage with all these users by liking, commenting and following. Instabot is smart: it will unfollow users if you tell it to but only unfollow those who didn’t follow you back. It can also tell if a profile is fake and will avoid engagement. Soon it will have a <em>stats module</em> to show how your audience has grown through time thanks to Instabot.</dd>
+									<div class="show-more">
+										<a href="#" class="reveals-more" onclick="ga('send', 'event', 'SeeMore', 'click', 'SMART');">See more <i class="fa fa-angle-down"></i></a>
 									</div>
 								</dl>
 							</div>
@@ -350,30 +375,32 @@
 		</div>
 	</div>
 	<div id="contact" class="hide-popup">
-		<div class="popup-main">
-			<span class="top-right">
-				<a href="#" class="close-contact" onclick="ga('send', 'event', 'Customer', 'click', 'Close Contact');"><i class="fa fa-remove"></i></a>
-			</span>
-			<div class="popup-inner">
-				<h2 class="text-center"><strong>Contact</strong></h2>
-				<div>
-					<p>You can contact me at <strong class="blue-text"><a href="mailto:nicolaspettican@gmail.com" onclick="ga('send', 'event', 'Customer', 'click', 'Email');">nicolaspettican@gmail.com</a></strong> or using my online form bellow.</p>
+		<div id="contact-wrapper" class="popup-wrapper-normal">
+			<div class="popup-main">
+				<span class="top-right">
+					<a href="#" class="close-contact" onclick="ga('send', 'event', 'Customer', 'click', 'Close Contact');"><i class="fa fa-remove"></i></a>
+				</span>
+				<div class="popup-inner">
+					<h2 class="text-center"><strong>Contact</strong></h2>
 					<div>
-						<form id="contact-form" method="POST" action="http://formspree.io/nicolaspettican@gmail.com">
-							<p>
-								Name <br>
-								<input type="text" name="name" placeholder="Your name" required>
-							</p>
-							<p>
-								Email <br>
-								<input type="email" name="email" placeholder="Your email" required>
-							</p>
-							<p>
-								Message <br>
-								<textarea name="message" placeholder="Your message" required></textarea>
-							</p>
-							<button type="submit"><i class="fa fa-send"></i></button>
-						</form>
+						<p>You can contact me at <strong class="blue-text"><a href="mailto:nicolaspettican@gmail.com" onclick="ga('send', 'event', 'Customer', 'click', 'Email');">nicolaspettican@gmail.com</a></strong> or using my online form bellow.</p>
+						<div>
+							<form id="contact-form" method="POST" action="http://formspree.io/nicolaspettican@gmail.com">
+								<p>
+									Name <br>
+									<input type="text" name="name" placeholder="Your name" required>
+								</p>
+								<p>
+									Email <br>
+									<input type="email" name="email" placeholder="Your email" required>
+								</p>
+								<p>
+									Message <br>
+									<textarea name="message" placeholder="Your message" required></textarea>
+								</p>
+								<button type="submit"><i class="fa fa-send"></i></button>
+							</form>
+						</div>
 					</div>
 				</div>
 			</div>
