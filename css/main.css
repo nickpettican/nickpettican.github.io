@@ -416,7 +416,7 @@ code {
 	color: #0f2a55;
 }
 
-.mcr-purple-white, .mcr-gold-white, .mcr-white-purple, .mcr-gold-purple, .bioinformatics, .sheffield, .havas-lynx, .unichat {
+.mcr-purple-white, .mcr-gold-white, .mcr-white-purple, .mcr-gold-purple, .bioinformatics, .sheffield, .havas-lynx, .unichat, .madana {
 	background-position: bottom center;
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -444,6 +444,9 @@ code {
 }
 .unichat {
 	background-image: url('img/unichat.png');
+}
+.madana {
+	background-image: url('img/MDN_CIRCLE_WHITE.png');
 }
 .sheffield {
 	background-image: url('img/sheffield.png');
@@ -1160,8 +1163,13 @@ footer ul {
 		margin-bottom: 3em;
 	}
 	.header {
-		height: 500px;
-	}
+		height: 600px;
+  }
+  .berlin-moon {
+    height: 500px;
+    width: 40%;
+    margin: 0 30%;
+  }
 	.exec-summary p, h3, .inner-row {
 		margin-top: 1.4em;
 	}
@@ -1221,7 +1229,7 @@ footer ul {
 		font-size: 18px;
 	}
 	.header {
-		height: 650px;
+		height: 750px;
 	}
 	h1 {
 		font-size: 2.4em;
