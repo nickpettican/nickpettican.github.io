@@ -792,6 +792,10 @@ dl dd {
 	height: 100%;
 }
 
+#contact .popup-inner {
+  padding-top: 70px;
+}
+
 input, textarea {
 	width: 100%;
 	max-width: 590px;
