@@ -1,27 +1,25 @@
 {
-  "name": "nicolaspettican.com",
+  "name": "jekyll-theme-minimal-resume",
   "version": "1.0.0",
-  "description": "Nicolas Pettican's portfolio website",
+  "description": "This is a simple Jekyll theme for a minimal resume website.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test/**/*.test.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nickpettican/nickpettican.github.io.git"
-  },
-  "author": "nickpettican",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nickpettican/nickpettican.github.io/issues"
-  },
-  "homepage": "https://github.com/nickpettican/nickpettican.github.io#readme",
-  "devDependencies": {
-    "browser-sync": "^2.24.5",
-    "gulp": "^3.9.1",
-    "gulp-clean-css": "^3.9.4",
-    "gulp-rename": "^1.3.0",
-    "gulp-uglify": "^3.0.0",
-    "pump": "^3.0.0"
+  "author": "Mauricio Urraco <mauriurraco@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "browser-sync": "^2.18.6",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^4.0.1",
+    "gulp-imagemin": "^6.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-terser": "^1.4.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-uglifyes": "^0.2.1",
+    "uglify-es": "^3.3.9"
   }
 }

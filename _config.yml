@@ -1,0 +1,15 @@
+# Site settings
+title: Nicolas Pettican
+username: Nicolas Pettican
+description: I drink tea and write code, working full-stack from the UI to the database layer.
+url: "https://www.nicolaspettican.com"
+
+# User settings
+main_heading: Hi, I'm Nicolas Pettican
+main_description: I love solving problems that matter, and I do so with modern technology. Today, I focus primarily on crafting software for trend-setting <strong>IT solutions</strong> for doctors and <strong>medical institutions</strong> with <a href="https://www.doc-cirrus.com/">Doc Cirrus</a> in Berlin. I also work in the <strong>charity sector</strong> enabling education online with <a href="https://www.paramita.org/">Paramita.org</a>.
+user_title: Software Developer
+email: nicolaspettican@gmail.com
+linkedin_username: nicolaspettican
+github_username:  nickpettican
+
+exclude: ['package.json', 'src' , 'node_modules']
