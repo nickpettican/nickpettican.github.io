@@ -1,0 +1,51 @@
+colorScheme = "middleway"
+defaultAppearance = "auto"
+autoSwitchAppearance = true
+
+enableA11y = true
+enableSearch = false
+enableCodeCopy = false
+
+# TODO: replace with a real hero image once one is chosen.
+# Path is relative to assets/ (Blowfish background partial convention).
+heroBackgroundImage = "img/hero-placeholder.jpg"
+
+[header]
+  layout = "fixed"
+
+[footer]
+  showMenu = false
+  showCopyright = true
+  showThemeAttribution = false
+  showAppearanceSwitcher = true
+  showScrollToTop = false
+
+[homepage]
+  layout = "custom"
+  showRecent = false
+  showRecentItems = 0
+
+[article]
+  showDate = false
+  showAuthor = false
+  showHero = false
+  showBreadcrumbs = false
+  showReadingTime = false
+  showWordCount = false
+  showPagination = false
+  showTaxonomies = false
+  showRelatedContent = false
+  showTableOfContents = false
+  sharingLinks = []
+
+[list]
+  showHero = false
+  showBreadcrumbs = false
+  showSummary = false
+  showTableOfContents = false
+  showPagination = false
+
+[fathomAnalytics]
+[umamiAnalytics]
+[buyMeACoffee]
+[verification]

@@ -1,0 +1,21 @@
+[[main]]
+  name = "About"
+  pageRef = "about"
+  weight = 10
+
+[[main]]
+  name = "Work"
+  pageRef = "work"
+  weight = 20
+
+# Writing lives at middlewaymusings.com — same identity, not a foreign
+# destination, so no target="_blank" attribute (see brief).
+[[main]]
+  name = "Writing"
+  url = "https://middlewaymusings.com"
+  weight = 30
+
+[[main]]
+  name = "Contact"
+  pageRef = "contact"
+  weight = 40
