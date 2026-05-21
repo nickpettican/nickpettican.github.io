@@ -1,0 +1,11 @@
+baseURL = "https://nicolaspettican.com/"
+title = "Nicolas Pettican"
+theme = "blowfish"
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+enableEmoji = false
+pagination.pagerSize = 10
+
+# No blog → no need for taxonomies or RSS at root
+disableKinds = ["taxonomy", "term", "RSS"]
+[taxonomies]

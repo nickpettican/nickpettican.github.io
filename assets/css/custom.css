@@ -1,0 +1,180 @@
+/*
+  Custom styling for nicolaspettican.com.
+  Layered on top of Blowfish's `background` home layout (overridden in
+  layouts/partials/home/background.html). This file handles:
+    - EB Garamond serif typography
+    - Strikethrough name treatment
+    - Inline links row
+    - Ken Burns animation on the fixed background image
+    - Below-the-fold spacing
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+
+:root {
+  --np-serif: 'EB Garamond', Georgia, 'Times New Roman', serif;
+}
+
+body {
+  font-family: var(--np-serif);
+  font-size: 1.075rem;
+  line-height: 1.65;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--np-serif);
+  font-weight: 600;
+  letter-spacing: -0.005em;
+}
+
+/* ---------- Name treatment ---------- */
+
+.np-hero__name {
+  font-size: clamp(2.25rem, 5.5vw, 3.5rem) !important;
+  font-weight: 600 !important;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+}
+
+.np-hero__former {
+  text-decoration: line-through;
+  text-decoration-thickness: 1.5px;
+  text-decoration-color: currentColor;
+  opacity: 0.55;
+  font-weight: 500;
+}
+
+.np-hero__current {
+  white-space: nowrap;
+}
+
+.np-hero__subtitle {
+  font-style: italic;
+  font-weight: 400 !important;
+}
+
+.np-hero__bio {
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+/* ---------- Icon link row ---------- */
+
+.np-hero__links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2.25rem;
+  padding: 0;
+  list-style: none;
+}
+
+.np-hero__links a {
+  color: rgb(var(--color-primary-600));
+  text-decoration: none;
+  display: inline-flex;
+  transition: color 150ms ease, transform 150ms ease;
+}
+
+.np-hero__links a svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.dark .np-hero__links a {
+  color: rgb(var(--color-primary-300));
+}
+
+.np-hero__links a:hover {
+  color: rgb(var(--color-secondary-500));
+  transform: translateY(-1px);
+}
+
+/* Contact icon row (mirrors hero icons in the get-in-touch section) */
+.np-contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0;
+}
+
+.np-contact a {
+  color: rgb(var(--color-primary-600));
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  text-decoration: none;
+}
+
+.np-contact a svg {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.dark .np-contact a {
+  color: rgb(var(--color-primary-300));
+}
+
+.np-contact a:hover {
+  color: rgb(var(--color-secondary-500));
+}
+
+/* ---------- Below the fold ---------- */
+
+.np-below {
+  margin-top: 3rem;
+  text-align: left;
+}
+
+.np-below h2 {
+  margin-top: 3rem;
+  font-size: 1.6rem;
+  border-bottom: 1px solid rgb(var(--color-neutral-200));
+  padding-bottom: 0.35rem;
+}
+
+.np-below h3 {
+  margin-top: 1.75rem;
+  font-size: 1.4rem;
+  color: rgb(var(--color-primary-700));
+}
+
+.dark .np-below h3 {
+  color: rgb(var(--color-primary-300));
+}
+
+/* ---------- Work page headings ---------- */
+
+.np-work h2 {
+  color: rgb(var(--color-primary-700));
+}
+
+.dark .np-work h2 {
+  color: rgb(var(--color-primary-300));
+}
+
+/* ---------- Ken Burns on the fixed background image ---------- */
+
+.np-hero__bg-img {
+  transform-origin: center center;
+  will-change: transform;
+  animation: np-kenburns 75s ease-in-out infinite alternate;
+}
+
+@keyframes np-kenburns {
+  0%   { transform: scale(1.0) translate(-1%, -1%); }
+  100% { transform: scale(1.08) translate(2%, 2%); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .np-hero__bg-img { animation: none; }
+}
+
+@media (max-width: 768px) {
+  /* Battery + bandwidth: mobile gets the static blurred image. */
+  .np-hero__bg-img { animation: none; }
+  .np-hero__current { white-space: normal; display: block; margin-top: 0.25rem; }
+}

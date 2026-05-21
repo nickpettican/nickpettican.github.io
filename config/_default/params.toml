@@ -1,0 +1,50 @@
+colorScheme = "middleway"
+defaultAppearance = "auto"
+autoSwitchAppearance = true
+
+enableA11y = false
+enableSearch = false
+enableCodeCopy = false
+
+defaultBackgroundImage = "img/hero.jpg"
+
+[header]
+  layout = "fixed"
+
+[footer]
+  showMenu = false
+  showCopyright = true
+  showThemeAttribution = false
+  showAppearanceSwitcher = true
+  showScrollToTop = false
+
+[homepage]
+  layout = "background"
+  showRecent = false
+  showRecentItems = 0
+  layoutBackgroundBlur = true
+
+[article]
+  showDate = false
+  showAuthor = false
+  showHero = false
+  showBreadcrumbs = false
+  showReadingTime = false
+  showWordCount = false
+  showPagination = false
+  showTaxonomies = false
+  showRelatedContent = false
+  showTableOfContents = false
+  sharingLinks = []
+
+[list]
+  showHero = false
+  showBreadcrumbs = false
+  showSummary = false
+  showTableOfContents = false
+  showPagination = false
+
+[fathomAnalytics]
+[umamiAnalytics]
+[buyMeACoffee]
+[verification]

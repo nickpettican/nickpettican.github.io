@@ -1,0 +1,100 @@
+{{/*
+  Custom override of Blowfish's home/background.html partial.
+  Reuses Blowfish's fixed-image + gradient-overlay technique so the
+  rendering matches the theme's `background` layout, but swaps the
+  default Author block for the strikethrough name treatment + bio +
+  inline links specified in the brief. The Ken Burns sits on the <img>
+  via .np-hero__bg-img; .Content renders below the fold.
+*/}}
+
+{{ $homepageImage := "" }}
+{{ with .Site.Params.defaultBackgroundImage }}
+  {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
+    {{ $homepageImage = resources.GetRemote . }}
+  {{ else }}
+    {{ $homepageImage = resources.Get . }}
+  {{ end }}
+{{ end }}
+
+<article class="prose dark:prose-invert max-w-full">
+  <div class="relative">
+    <div class="absolute inset-x-0 bottom-0 h-1/2"></div>
+    <div class="mx-auto max-w-7xl p-0">
+      <div class="relative sm:overflow-hidden">
+        <div class="fixed inset-x-0 top-0 -z-10">
+          {{ if $homepageImage }}
+            <img
+              id="background-image"
+              class="np-hero__bg-img nozoom mt-0 mr-0 mb-0 ml-0 h-[1000px] w-full object-cover"
+              src="{{ $homepageImage.RelPermalink }}"
+              role="presentation"
+              alt="">
+            <div
+              class="from-neutral absolute inset-0 h-[1000px] bg-gradient-to-t to-transparent mix-blend-normal dark:from-neutral-800"></div>
+            <div
+              class="from-neutral absolute inset-0 h-[1000px] bg-gradient-to-t to-neutral-100 opacity-60 mix-blend-normal dark:from-neutral-800 dark:to-neutral-800"></div>
+          {{ end }}
+        </div>
+
+        <div class="np-hero__inner relative flex flex-col items-center justify-center px-1 pt-32 pb-12 text-center">
+          <h1 class="np-hero__name mb-2 text-4xl font-extrabold text-neutral-800 dark:text-neutral-200">
+            Hi, I&rsquo;m <s class="np-hero__former">Nicolas Pettican</s> <span class="np-hero__current">Tenpa Bhikshu</span>
+          </h1>
+
+          <h2 class="np-hero__subtitle mt-0 mb-4 text-xl text-neutral-700 dark:text-neutral-300">
+            software engineer &middot; Buddhist monk &middot; aspiring scholar
+          </h2>
+
+          <p class="np-hero__bio mt-0 mb-6 max-w-xl text-neutral-700 dark:text-neutral-300">
+            A European Buddhist monk living and studying at a Tibetan monastery
+            in the Indian Himalayas. Before ordaining I built a career in
+            software engineering and project management in healthcare and IT.
+            These days I split my time between writing code for monastic causes, 
+            studying advanced Buddhist philosophy and training in monastic discipline.
+          </p>
+
+          <ul class="np-hero__links mt-0 mb-10 flex flex-wrap items-center justify-center gap-10 p-0 list-none">
+            <li><a href="https://offeringbowl.org" aria-label="Offering Bowl" title="Offering Bowl">{{ partial "icon.html" "mug-hot" }}</a></li>
+            <li><a href="https://middlewaymusings.com" aria-label="Writing" title="Writing">{{ partial "icon.html" "file-lines" }}</a></li>
+            <li><a href="https://github.com/nickpettican" aria-label="GitHub" title="GitHub">{{ partial "icon.html" "github" }}</a></li>
+            <li><a href="https://linkedin.com/in/nicolaspettican" aria-label="LinkedIn" title="LinkedIn">{{ partial "icon.html" "linkedin" }}</a></li>
+            <li><a href="https://instagram.com/middlewaymonk" aria-label="Instagram" title="Instagram">{{ partial "icon.html" "instagram" }}</a></li>
+            <li><a href="mailto:middlewaymonk@gmail.com" aria-label="Email" title="Email">{{ partial "icon.html" "envelope" }}</a></li>
+          </ul>
+
+          <section class="np-below prose dark:prose-invert w-full">{{ .Content }}</section>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+<section>
+  {{ partial "recent-articles/main.html" . }}
+</section>
+
+{{ if .Site.Params.homepage.layoutBackgroundBlur | default false }}
+  <div
+    id="background-blur"
+    class="fixed opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-xl bg-neutral-100/75 dark:bg-neutral-800/60"></div>
+  {{ $backgroundBlur := resources.Get "js/background-blur.js" }}
+  {{ $backgroundBlur = $backgroundBlur | resources.Minify | resources.Fingerprint (.Site.Params.fingerprintAlgorithm | default "sha512") }}
+  <script
+    type="text/javascript"
+    src="{{ $backgroundBlur.RelPermalink }}"
+    integrity="{{ $backgroundBlur.Data.Integrity }}"
+    data-blur-id="background-blur"
+    data-image-id="background-image"
+    {{ if $homepageImage }}data-image-url="{{ $homepageImage.RelPermalink }}"{{ end }}></script>
+{{ end }}
+
+<script>
+  // Pause the Ken Burns animation when the tab is hidden.
+  (function () {
+    var img = document.getElementById('background-image');
+    if (!img) return;
+    document.addEventListener('visibilitychange', function () {
+      img.style.animationPlayState = document.hidden ? 'paused' : 'running';
+    });
+  })();
+</script>
