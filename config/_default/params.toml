@@ -6,9 +6,8 @@ enableA11y = true
 enableSearch = false
 enableCodeCopy = false
 
-# TODO: replace with a real hero image once one is chosen.
-# Path is relative to assets/ (Blowfish background partial convention).
-heroBackgroundImage = "img/hero-placeholder.jpg"
+# Path is relative to assets/.
+heroBackgroundImage = "img/hero.jpg"
 
 [header]
   layout = "fixed"
