@@ -9,7 +9,7 @@ currently focused on, updated when things shift.
 ## Studying
 
 Madhyamaka philosophy at the Dzongsar Khyentse Chökyi Lodrö Institute
-in Bir, Himachal Pradesh. The current term is on Nagarjuna's
+in Bir, Himachal Pradesh. The current term is on Nāgārjuna's
 *Mūlamadhyamakakārikā* and the major Tibetan commentaries.
 
 Alongside that, I'm an academic researcher affiliated with Savitribai

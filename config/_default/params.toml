@@ -2,7 +2,7 @@ colorScheme = "middleway"
 defaultAppearance = "auto"
 autoSwitchAppearance = true
 
-enableA11y = true
+enableA11y = false
 enableSearch = false
 enableCodeCopy = false
 

@@ -36,34 +36,31 @@
           {{ end }}
         </div>
 
-        <div class="np-hero__inner relative flex flex-col items-center justify-center px-1 py-12 text-center">
+        <div class="np-hero__inner relative flex flex-col items-center justify-center px-1 pt-32 pb-12 text-center">
           <h1 class="np-hero__name mb-2 text-4xl font-extrabold text-neutral-800 dark:text-neutral-200">
-            Hi, I&rsquo;m <s class="np-hero__former">Nicolas Pettican</s> <span class="np-hero__current">Bhikshu Tenpa</span>
+            Hi, I&rsquo;m <s class="np-hero__former">Nicolas Pettican</s> <span class="np-hero__current">Tenpa Bhikshu</span>
           </h1>
 
           <h2 class="np-hero__subtitle mt-0 mb-4 text-xl text-neutral-700 dark:text-neutral-300">
-            Buddhist monk &middot; software engineer &middot; founder of Offering Bowl
+            software engineer &middot; Buddhist monk &middot; aspiring scholar
           </h2>
 
           <p class="np-hero__bio mt-0 mb-6 max-w-xl text-neutral-700 dark:text-neutral-300">
-            A Western European Bhikshu living and studying at a Tibetan monastery
-            in the Indian Himalayas. Before ordaining I spent a decade as a
-            software engineer and team lead in healthcare and privacy-tech.
-            These days I split my time between Madhyamaka philosophy, code for
-            monastic causes, and non-profit work.
+            A European Buddhist monk living and studying at a Tibetan monastery
+            in the Indian Himalayas. Before ordaining I built a career in
+            software engineering and project management in healthcare and IT.
+            These days I split my time between writing code for monastic causes, 
+            studying advanced Buddhist philosophy and training in monastic discipline.
           </p>
 
-          <p class="np-hero__links mt-0 mb-10">
-            <a href="https://offeringbowl.org">Offering Bowl</a>
-            <span class="np-hero__sep">&middot;</span>
-            <a href="https://middlewaymusings.com">Writing</a>
-            <span class="np-hero__sep">&middot;</span>
-            <a href="https://github.com/nickpettican">GitHub</a>
-            <span class="np-hero__sep">&middot;</span>
-            <a href="https://linkedin.com/in/nicolaspettican">LinkedIn</a>
-            <span class="np-hero__sep">&middot;</span>
-            <a href="mailto:nicolaspettican@gmail.com">Email</a>
-          </p>
+          <ul class="np-hero__links mt-0 mb-10 flex flex-wrap items-center justify-center gap-10 p-0 list-none">
+            <li><a href="https://offeringbowl.org" aria-label="Offering Bowl" title="Offering Bowl">{{ partial "icon.html" "mug-hot" }}</a></li>
+            <li><a href="https://middlewaymusings.com" aria-label="Writing" title="Writing">{{ partial "icon.html" "file-lines" }}</a></li>
+            <li><a href="https://github.com/nickpettican" aria-label="GitHub" title="GitHub">{{ partial "icon.html" "github" }}</a></li>
+            <li><a href="https://linkedin.com/in/nicolaspettican" aria-label="LinkedIn" title="LinkedIn">{{ partial "icon.html" "linkedin" }}</a></li>
+            <li><a href="https://instagram.com/middlewaymonk" aria-label="Instagram" title="Instagram">{{ partial "icon.html" "instagram" }}</a></li>
+            <li><a href="mailto:middlewaymonk@gmail.com" aria-label="Email" title="Email">{{ partial "icon.html" "envelope" }}</a></li>
+          </ul>
 
           <section class="np-below prose dark:prose-invert w-full">{{ .Content }}</section>
         </div>

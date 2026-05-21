@@ -9,16 +9,16 @@ title = "Nicolas Pettican"
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
-  description = "Personal homepage of Bhikshu Tenpa (Nicolas Pettican) — Buddhist monk, software engineer, founder of Offering Bowl."
+  description = "Personal homepage of Tenpa Bhikshu (Nicolas Pettican) — software engineer, Buddhist monk, aspiring scholar."
 
 [params.author]
-  name = "Bhikshu Tenpa"
+  name = "Tenpa Bhikshu (Nicolas Pettican)"
   # Legal name, for completeness: Nicolas Pettican
-  headline = "Buddhist monk · software engineer · founder of Offering Bowl"
-  bio = "A Western European Bhikshu living and studying at a Tibetan monastery in the Indian Himalayas."
+  headline = "software engineer · Buddhist monk · aspiring scholar"
+  bio = "A European coder and Buddhist monk living and studying at a Tibetan monastery in the Indian Himalayas."
   links = [
     { github = "https://github.com/nickpettican" },
     { linkedin = "https://linkedin.com/in/nicolaspettican" },
     { instagram = "https://instagram.com/middlewaymonk" },
-    { email = "mailto:nicolaspettican@gmail.com" },
+    { email = "mailto:middlewaymonk@gmail.com" },
   ]

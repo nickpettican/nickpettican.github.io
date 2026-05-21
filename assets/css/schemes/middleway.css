@@ -1,55 +1,55 @@
 /*
-  middleway scheme — warm russet on cream.
+  middleway scheme.
 
-  Neutrals: warm off-white cream → deep umber. Avoids pure white and
-  pure black so the page reads as paper rather than screen.
-  Primary: russet (a desaturated brick-red, picks up the kashaya).
-  Secondary: muted saffron, used sparingly.
+  Lineage: Tibetan monastic maroon (kashaya) for primary, saffron for
+  the secondary accent. Neutrals are cool slate / off-white — paper-like
+  but not warm-brown, so the page reads as modern + restrained rather
+  than rustic.
 
-  Reference hexes (for humans reading this file):
-    neutral-50  #fbf8f3 cream
-    neutral-100 #f4ede1
-    neutral-300 #d3c8b3
-    neutral-500 #8a7f6d warm taupe
-    neutral-800 #2b231b deep umber
-    neutral-900 #1a140e near-black with warmth
-    primary-500 #a14e2d russet
-    primary-700 #6f3520 deep russet
-    secondary-500 #c98a3b muted saffron
+  Reference hexes:
+    neutral-50  #f6f6f4 off-white (slight warmth, far from cream)
+    neutral-100 #ececea
+    neutral-300 #cfd0cf
+    neutral-500 #7a7d80 cool slate
+    neutral-800 #232629 charcoal
+    neutral-900 #14171a near-black
+    primary-500 #8a2331 monastic maroon
+    primary-700 #5e1721 deep maroon
+    secondary-500 #d49a3a saffron
 */
 
 :root {
   --color-neutral: 255, 255, 255;
-  --color-neutral-50:  251, 248, 243;
-  --color-neutral-100: 244, 237, 225;
-  --color-neutral-200: 231, 220, 200;
-  --color-neutral-300: 211, 200, 179;
-  --color-neutral-400: 173, 161, 140;
-  --color-neutral-500: 138, 127, 109;
-  --color-neutral-600: 102,  92,  78;
-  --color-neutral-700:  71,  60,  47;
-  --color-neutral-800:  43,  35,  27;
-  --color-neutral-900:  26,  20,  14;
+  --color-neutral-50:  246, 246, 244;
+  --color-neutral-100: 236, 236, 234;
+  --color-neutral-200: 222, 222, 220;
+  --color-neutral-300: 207, 208, 207;
+  --color-neutral-400: 165, 167, 169;
+  --color-neutral-500: 122, 125, 128;
+  --color-neutral-600:  88,  92,  96;
+  --color-neutral-700:  58,  62,  66;
+  --color-neutral-800:  35,  38,  41;
+  --color-neutral-900:  20,  23,  26;
 
-  --color-primary-50:  250, 240, 232;
-  --color-primary-100: 244, 222, 208;
-  --color-primary-200: 232, 188, 162;
-  --color-primary-300: 213, 144, 109;
-  --color-primary-400: 188, 105,  72;
-  --color-primary-500: 161,  78,  45;
-  --color-primary-600: 132,  62,  34;
-  --color-primary-700: 111,  53,  32;
-  --color-primary-800:  84,  41,  26;
-  --color-primary-900:  56,  28,  18;
+  --color-primary-50:  248, 232, 232;
+  --color-primary-100: 238, 204, 204;
+  --color-primary-200: 214, 156, 158;
+  --color-primary-300: 184,  96,  98;
+  --color-primary-400: 162,  62,  68;
+  --color-primary-500: 138,  35,  49;
+  --color-primary-600: 116,  28,  41;
+  --color-primary-700:  94,  23,  33;
+  --color-primary-800:  71,  18,  26;
+  --color-primary-900:  48,  12,  18;
 
-  --color-secondary-50:  252, 246, 234;
-  --color-secondary-100: 248, 232, 200;
+  --color-secondary-50:  252, 245, 230;
+  --color-secondary-100: 248, 231, 198;
   --color-secondary-200: 240, 207, 152;
-  --color-secondary-300: 226, 175,  98;
-  --color-secondary-400: 211, 154,  68;
-  --color-secondary-500: 201, 138,  59;
-  --color-secondary-600: 168, 113,  48;
-  --color-secondary-700: 130,  88,  38;
-  --color-secondary-800:  92,  62,  28;
-  --color-secondary-900:  56,  38,  18;
+  --color-secondary-300: 226, 178, 104;
+  --color-secondary-400: 215, 160,  72;
+  --color-secondary-500: 212, 154,  58;
+  --color-secondary-600: 178, 128,  46;
+  --color-secondary-700: 138,  99,  36;
+  --color-secondary-800:  96,  68,  24;
+  --color-secondary-900:  58,  41,  14;
 }

@@ -58,32 +58,68 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.7;
 }
 
-/* ---------- Inline links row ---------- */
+/* ---------- Icon link row ---------- */
 
 .np-hero__links {
-  font-size: 0.95rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2.25rem;
+  padding: 0;
+  list-style: none;
 }
 
 .np-hero__links a {
   color: rgb(var(--color-primary-600));
   text-decoration: none;
-  border-bottom: 1px solid rgba(var(--color-primary-600), 0.35);
-  padding-bottom: 1px;
+  display: inline-flex;
+  transition: color 150ms ease, transform 150ms ease;
+}
+
+.np-hero__links a svg {
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
 .dark .np-hero__links a {
   color: rgb(var(--color-primary-300));
-  border-bottom-color: rgba(var(--color-primary-300), 0.4);
 }
 
 .np-hero__links a:hover {
-  color: rgb(var(--color-primary-700));
-  border-bottom-color: currentColor;
+  color: rgb(var(--color-secondary-500));
+  transform: translateY(-1px);
 }
 
-.np-hero__sep {
-  color: rgb(var(--color-neutral-400));
-  margin: 0 0.4rem;
+/* Contact icon row (mirrors hero icons in the get-in-touch section) */
+.np-contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0;
+}
+
+.np-contact a {
+  color: rgb(var(--color-primary-600));
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  text-decoration: none;
+}
+
+.np-contact a svg {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.dark .np-contact a {
+  color: rgb(var(--color-primary-300));
+}
+
+.np-contact a:hover {
+  color: rgb(var(--color-secondary-500));
 }
 
 /* ---------- Below the fold ---------- */
@@ -102,11 +138,21 @@ h1, h2, h3, h4, h5, h6 {
 
 .np-below h3 {
   margin-top: 1.75rem;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   color: rgb(var(--color-primary-700));
 }
 
 .dark .np-below h3 {
+  color: rgb(var(--color-primary-300));
+}
+
+/* ---------- Work page headings ---------- */
+
+.np-work h2 {
+  color: rgb(var(--color-primary-700));
+}
+
+.dark .np-work h2 {
   color: rgb(var(--color-primary-300));
 }
 

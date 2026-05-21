@@ -1,10 +1,10 @@
 ---
 title: "Contact"
-description: "How to reach Nicolas Pettican (Bhikshu Tenpa)."
+description: "How to reach Nicolas Pettican (Tenpa Bhikshu)."
 ---
 
 Email is the best way to reach me:
-[nicolaspettican@gmail.com](mailto:nicolaspettican@gmail.com).
+[middlewaymonk@gmail.com](mailto:middlewaymonk@gmail.com).
 
 Elsewhere:
 

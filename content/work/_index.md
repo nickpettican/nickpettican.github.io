@@ -1,25 +1,27 @@
 ---
 title: "Work"
 description: "Engineering biography — Offering Bowl, Doc Cirrus, MADANA, Unique Insights, Havas Lynx, and what came before."
+showTableOfContents: true
 ---
 
-## Offering Bowl
+## Recent professional experience
 
-*Founder, Chairman, lead engineer — November 2024 to present. Spain & India.*
+### Offering Bowl - Chairman / Head of Development
+
+*November 2024 to present. Spain & India.*
 
 Offering Bowl is a platform that connects Buddhist monastics with lay
 sponsors and modernises the ancient practice of *dana* (generosity) for
 the digital age. Monasteries and individual monastics are verified
 before listing, and sponsors can contribute one-off or recurring
 support. I founded it, designed it, and write most of the code, with a
-volunteer technical team supporting infrastructure and partnerships.
+volunteer team supporting infrastructure, partnerships and legal paperwork.
 
 The stack is TypeScript and Node.js on the backend, Vue on the
-frontend, AWS for infrastructure, DynamoDB and Firebase for data, and
-Stripe Connect for payouts. Currently in private beta with several
-monasteries.
+frontend, AWS for infrastructure (ECS, Lambda, S3, etc), NoSQL
+for data, and Stripe for payouts. Currently in private beta.
 
-## Doc Cirrus GmbH — Team Lead / Senior Engineer
+### Doc Cirrus GmbH — Team Lead / Senior Engineer
 
 *September 2019 – August 2022. Berlin.*
 
@@ -29,12 +31,14 @@ group responsible for letting partner companies ship their own
 applications inside the inSuite product. We started on Docker and
 moved to Podman, and I rewrote the deploy pipeline along the way. My
 team also maintained the orchestration infrastructure and built our
-own applications on top of it.
+own applications on top of it. We worked rather successfully with
+cross-functional Scrum with product, QA, and customer care. We used Jira
+and Confluence daily.
 
-Stack: JavaScript, Node.js, MongoDB, Docker / Podman, Bash, Unix.
-Cross-functional Scrum with product, QA, and customer care.
+Stack: JavaScript, TypeScript, Node.js, MongoDB, Docker / Podman, Bash,
+Unix, and Jira for PM.
 
-## MADANA — Head of Development
+### MADANA — Head of Development
 
 *April 2018 – July 2019. Berlin.*
 
@@ -43,59 +47,99 @@ for sensitive data. I led the development of the mobile application,
 ran the data-analysis team, and worked closely with the marketing
 team on the technical strategy. The work I drove most directly was a
 healthcare pilot — analytics on patient data that preserved patient
-privacy. Infrastructure on AWS and Bamboo. Stack: React, Java,
-Node.js.
+privacy. We worked with Scrum and Jira for PM, and used Bamboo for CI.
 
-## Unique Insights — Head of Development
+Stack: React, React Native, Java, Node.js, and Bash.
+
+### Unique Insights — Head of Development
 
 *August 2017 – July 2018. Manchester.*
 
 Unique Insights built customer-understanding tools on top of
 machine-learning APIs. As Head of Development I was half engineer,
 half tech strategist — building the product itself and shaping where
-it should go. JavaScript / Node / Python / AWS / NoSQL.
+it should go. We tried cracking the higher education market with an
+LLM-type product, but unfortunately we ran out of funds before we could.
 
-## Havas Lynx — Research Executive
+Stack: JavaScript, Node.js, Python, AWS, and NoSQL.
 
-*2016 – 2017. Manchester.*
+## Post-graduate research
 
-Strategy team for a global pharmaceutical communications agency. I
-wasn't formally an engineer here, but I wrote a fair amount of Python
-to automate quantitative research that would otherwise have been done
-by hand.
+### Savitribai Phule Pune University — Academic Researcher
+
+*March 2025–present. Pune, Maharashtra.*
+
+Comparative philosophical research on interpretations of Nāgārjuna's
+Madhyamaka, in collaboration with DKCLI. The project sits across two
+methodologies — classical Tibetan commentarial study and
+contemporary Western Buddhist studies — and asks where they
+converge, where they diverge, and what each loses when it ignores the
+other. Funded by a **Khyentse Foundation Buddhist Studies Grant**.
 
 ## Education
 
-- **University of Manchester** — BSc Biotechnology with Enterprise
-  (2012–2015), MSc Bioinformatics and Systems Biology (2015–2016),
-  with minors in Business and Computer Science.
-- **Dzongsar Khyentse Chökyi Lodrö Institute** — BA in Buddhist
-  Scriptures and Philosophies (2022–present), in Bir, Himachal
-  Pradesh.
-- **Savitribai Phule Pune University** — Academic Researcher,
-  comparative Madhyamaka philosophy (March 2025–present), in
-  collaboration with DKCLI and on a Khyentse Foundation grant.
+### Dzongsar Khyentse Chökyi Lodrö Institute
+
+*BA/MA in Buddhist Scriptures and Philosophies — 2022–present. Bir,
+Himachal Pradesh.*
+
+The full traditional monastic curriculum: Tibetan language, classical
+commentaries on Madhyamaka, Pramāṇa (epistemology), Abhidharma,
+and formal debate. Taught in Tibetan under the lineage of Khyentse
+Rinpoche.
+
+### University of Manchester
+
+*MSc Bioinformatics and Systems Biology — 2015–2016.*
+*BSc Biotechnology with Enterprise — 2012–2015.*
+
+A four-year run through the life sciences with deliberate detours into
+business and computer science as minors. The BSc was a broad
+biotechnology degree with an enterprise strand that pushed every
+project through a commercialisation lens; the MSc was where the
+science met the keyboard — large-scale sequence analysis, systems
+modelling, and enough Python and R to realise I was going to spend
+the rest of my career writing code. Supported by **The Manchester
+Bursary** and a **BSPP Undergraduate Bursary Fund**.
+
+I also spent a few months in early 2016 as a **Postgraduate Ambassador**
+for the University, running tours and Q&As for prospective postgraduate
+students and answering queries through the Manchester Calling Campaign.
 
 ## Non-profit work
 
-I've co-founded or founded three charities. **SPIN** (Supporting
-People In Need) ran a homeless shelter in Manchester out of a former
-Baptist church — I joined an existing volunteer group, built the
-website, registered the charity, and went in every Sunday to cook
-for the people who came. **Lotus Project** brought solar power to
-disconnected villages in Southern Asia; we successfully installed
-panels in a village in northern Vietnam. **Offering Bowl** is the
-current one, described above.
+I've been involved with non-profits since 2012, in roles ranging from
+founder and chairman to volunteer cook and digital creative. The
+through-line is the same one I read into the technical work: the point
+of the tools is the people they're for.
 
-Beyond founding work, I've spent a decade volunteering in various
-ways — caring for children with disabilities, running social events
-for the Faculty of Life Sciences Society at Manchester, co-founding
-the Bioinformatics Society there, and building websites and apps for
-Buddhist centres and monasteries. I read this as the same thread
-running through the technical work: the point of the tools is the
-people they're for.
+### Paramita
 
-## CV
+*Digital Consultant — Spain, 2017 - 2021.*
 
-For the formal version, [the LinkedIn PDF](/Profile.pdf) is the most
-up-to-date snapshot.
+Contributing to the codebase, UI and UX of the Paramita.org online learning platform.
+Additionally, offering actionable recommendations for the digital marketing efforts.
+At one point we even re-built the entire platform and I managed the implementation.
+
+### Lotus Project
+
+*Co-founder — Berlin, late-2010s.*
+
+Brought renewable solar power to disconnected villages in remote parts
+of Southeast Asia. We successfully installed panels in a village in
+northern Vietnam before the project wound down.
+
+### SPIN (Supporting People In Need)
+
+*Co-founder, Head of IT — Manchester, mid 2010s.*
+
+A homeless shelter run out of a former Baptist church. I joined an
+existing volunteer group, registered the charity, built the website,
+and went in most Sundays to cook for the people who came through.
+
+### Buddhist centres and monasteries
+
+Over the past several years I've also built websites, apps, and other
+small bits of digital infrastructure for various Buddhist centres and
+monasteries — usually pro bono, usually quietly. Offering Bowl is the
+formal continuation of that work.
