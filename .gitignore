@@ -11,3 +11,10 @@ resources/_gen/
 
 # Logs
 *.log
+
+# Local-only files (not for git)
+CLAUDE.md
+Nicolas-Pettican-Engineer--Scholar--Monk.pdf
+nicolaspettican-rebuild-brief.md
+extra-notes.md
+static/Profile.pdf
