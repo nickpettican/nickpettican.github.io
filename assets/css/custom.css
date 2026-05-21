@@ -1,7 +1,12 @@
 /*
   Custom styling for nicolaspettican.com.
-  Hero + below-the-fold layout, Ken Burns animation, name treatment,
-  and EB Garamond serif via Google Fonts.
+  Layered on top of Blowfish's `background` home layout (overridden in
+  layouts/partials/home/background.html). This file handles:
+    - EB Garamond serif typography
+    - Strikethrough name treatment
+    - Inline links row
+    - Ken Burns animation on the fixed background image
+    - Below-the-fold spacing
 */
 
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
@@ -22,75 +27,12 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -0.005em;
 }
 
-/* ---------- Hero ---------- */
-
-.np-hero {
-  position: relative;
-  min-height: calc(100vh - 4rem);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  margin: -1rem -1rem 0;
-  padding: 3rem 1.5rem;
-}
-
-.np-hero__bg {
-  position: absolute;
-  inset: 0;
-  z-index: 0;
-  overflow: hidden;
-  background: rgb(var(--color-neutral-200));
-}
-
-.np-hero__bg-img {
-  position: absolute;
-  inset: -5%;
-  width: 110%;
-  height: 110%;
-  object-fit: cover;
-  filter: blur(28px);
-  transform-origin: center center;
-  will-change: transform;
-  animation: np-kenburns 75s ease-in-out infinite alternate;
-}
-
-.np-hero__bg-overlay {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    180deg,
-    rgba(var(--color-neutral-50), 0.55) 0%,
-    rgba(var(--color-neutral-100), 0.75) 100%
-  );
-}
-
-:root.dark .np-hero__bg-overlay,
-.dark .np-hero__bg-overlay {
-  background: linear-gradient(
-    180deg,
-    rgba(var(--color-neutral-900), 0.65) 0%,
-    rgba(var(--color-neutral-800), 0.80) 100%
-  );
-}
-
-.np-hero__inner {
-  position: relative;
-  z-index: 1;
-  max-width: 42rem;
-  text-align: center;
-  color: rgb(var(--color-neutral-800));
-}
-
-.dark .np-hero__inner {
-  color: rgb(var(--color-neutral-100));
-}
+/* ---------- Name treatment ---------- */
 
 .np-hero__name {
-  font-size: clamp(2.25rem, 5.5vw, 3.5rem);
-  font-weight: 600;
+  font-size: clamp(2.25rem, 5.5vw, 3.5rem) !important;
+  font-weight: 600 !important;
   line-height: 1.15;
-  margin: 0 0 1rem;
   letter-spacing: -0.01em;
 }
 
@@ -98,7 +40,7 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: line-through;
   text-decoration-thickness: 1.5px;
   text-decoration-color: currentColor;
-  opacity: 0.6;
+  opacity: 0.55;
   font-weight: 500;
 }
 
@@ -107,26 +49,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .np-hero__subtitle {
-  font-size: 1.05rem;
-  color: rgb(var(--color-neutral-600));
-  margin: 0 0 1.5rem;
   font-style: italic;
-}
-
-.dark .np-hero__subtitle {
-  color: rgb(var(--color-neutral-300));
+  font-weight: 400 !important;
 }
 
 .np-hero__bio {
   font-size: 1.1rem;
   line-height: 1.7;
-  max-width: 36rem;
-  margin: 0 auto 1.75rem;
 }
+
+/* ---------- Inline links row ---------- */
 
 .np-hero__links {
   font-size: 0.95rem;
-  margin: 0;
 }
 
 .np-hero__links a {
@@ -154,9 +89,8 @@ h1, h2, h3, h4, h5, h6 {
 /* ---------- Below the fold ---------- */
 
 .np-below {
-  max-width: 42rem;
-  margin: 4rem auto;
-  padding: 0 1rem;
+  margin-top: 3rem;
+  text-align: left;
 }
 
 .np-below h2 {
@@ -176,7 +110,13 @@ h1, h2, h3, h4, h5, h6 {
   color: rgb(var(--color-primary-300));
 }
 
-/* ---------- Ken Burns ---------- */
+/* ---------- Ken Burns on the fixed background image ---------- */
+
+.np-hero__bg-img {
+  transform-origin: center center;
+  will-change: transform;
+  animation: np-kenburns 75s ease-in-out infinite alternate;
+}
 
 @keyframes np-kenburns {
   0%   { transform: scale(1.0) translate(-1%, -1%); }
@@ -190,7 +130,5 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 768px) {
   /* Battery + bandwidth: mobile gets the static blurred image. */
   .np-hero__bg-img { animation: none; }
-  .np-hero { min-height: calc(100vh - 3rem); padding: 2rem 1rem; }
-  .np-hero__name { line-height: 1.2; }
   .np-hero__current { white-space: normal; display: block; margin-top: 0.25rem; }
 }

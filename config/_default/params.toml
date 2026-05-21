@@ -6,8 +6,7 @@ enableA11y = true
 enableSearch = false
 enableCodeCopy = false
 
-# Path is relative to assets/.
-heroBackgroundImage = "img/hero.jpg"
+defaultBackgroundImage = "img/hero.jpg"
 
 [header]
   layout = "fixed"
@@ -20,9 +19,10 @@ heroBackgroundImage = "img/hero.jpg"
   showScrollToTop = false
 
 [homepage]
-  layout = "custom"
+  layout = "background"
   showRecent = false
   showRecentItems = 0
+  layoutBackgroundBlur = true
 
 [article]
   showDate = false
