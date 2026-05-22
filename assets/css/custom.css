@@ -37,7 +37,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .np-hero__former {
-  text-decoration: line-through;
+  /* text-decoration: line-through; */
+  white-space: nowrap;
   text-decoration-thickness: 1.5px;
   text-decoration-color: currentColor;
   opacity: 0.55;
