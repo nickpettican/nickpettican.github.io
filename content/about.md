@@ -45,8 +45,6 @@ monastic and meditation training from some of the best Buddhist monks and teache
 of today.
 
 My writings on Buddhist philosophy and monastic life live at
-[middlewaymusings.com](https://middlewaymusings.com). This site is
-deliberately quieter — a place to point people to the work, not a
-publishing platform.
+[middlewaymusings.com](https://middlewaymusings.com).
 
 If you want to reach me, [email is best](mailto:middlewaymonk@gmail.com).
