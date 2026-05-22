@@ -127,7 +127,7 @@ At one point we even re-built the entire platform and I managed the implementati
 
 Brought renewable solar power to disconnected villages in remote parts
 of Southeast Asia. We successfully installed panels in a village in
-northern Vietnam before the project wound down.
+northern Vietnam and the project is still ongoing.
 
 ### SPIN (Supporting People In Need)
 
