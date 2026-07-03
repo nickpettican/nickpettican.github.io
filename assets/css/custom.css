@@ -18,6 +18,7 @@
 body {
   font-family: var(--np-serif);
   font-size: 1.075rem;
+  font-size: 18px;
   line-height: 1.65;
 }
 
@@ -155,6 +156,163 @@ h1, h2, h3, h4, h5, h6 {
 
 .dark .np-work h2 {
   color: rgb(var(--color-primary-300));
+}
+
+/* ---------- Work page: instax photo wall ----------
+   Shared design language with the middlewaymusings.com homepage.
+   Cards span 2 tracks of a 4- or 6-track grid so an incomplete last
+   row can be centred by shifting its first card. */
+
+.np-wall-intro {
+  margin: 1.5rem 0 2.5rem;
+  max-width: 65ch;
+}
+
+.np-wall-heading {
+  margin: 3rem 0 1.75rem;
+  font-size: 1.6rem;
+  color: rgb(var(--color-primary-700));
+  border-bottom: 1px solid rgb(var(--color-neutral-200));
+  padding-bottom: 0.35rem;
+}
+
+.dark .np-wall-heading {
+  color: rgb(var(--color-primary-300));
+}
+
+.instax-wall {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.25rem 1.75rem;
+  padding: 0.5rem;
+  max-width: 60rem;
+  margin-inline: auto;
+}
+
+@media (min-width: 640px) {
+  .instax-wall {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .instax {
+    grid-column: span 2;
+  }
+
+  /* lone card on the last row: centre it */
+  .instax:nth-child(2n + 1):nth-last-child(1) {
+    grid-column: 2 / span 2;
+  }
+}
+
+/* 3 per row on desktop */
+@media (min-width: 1024px) {
+  .instax-wall {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .instax:nth-child(2n + 1):nth-last-child(1) {
+    grid-column: span 2;
+  }
+
+  /* last row of one or two cards: centre them */
+  .instax:nth-child(3n + 1):nth-last-child(1) {
+    grid-column: 3 / span 2;
+  }
+
+  .instax:nth-child(3n + 1):nth-last-child(2) {
+    grid-column: 2 / span 2;
+  }
+}
+
+/* instax wide film: 108x86mm, image window 99x62mm */
+.instax {
+  --tilt: 0deg;
+  display: block;
+  padding: 4.2% 4.2% 0;
+  background: #fefcf8;
+  border: 0.5px solid rgb(0 0 0 / 0.08);
+  border-radius: 3px;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 0.08), 0 6px 16px rgb(0 0 0 / 0.1);
+  transform: rotate(var(--tilt));
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-decoration: none;
+}
+
+.instax:nth-child(4n + 1) { --tilt: -1.3deg; }
+.instax:nth-child(4n + 2) { --tilt: 1deg; }
+.instax:nth-child(4n + 3) { --tilt: 0.8deg; }
+.instax:nth-child(4n + 4) { --tilt: -0.9deg; }
+
+.instax:hover,
+.instax:focus-visible {
+  transform: rotate(0deg) translateY(-4px) scale(1.015);
+  box-shadow: 0 2px 4px rgb(0 0 0 / 0.08), 0 14px 28px rgb(0 0 0 / 0.16);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .instax,
+  .instax:hover {
+    transform: none;
+    transition: none;
+  }
+}
+
+.instax-photo {
+  display: block;
+  aspect-ratio: 108 / 62;
+  overflow: hidden;
+  background: #faf6f2;
+}
+
+.instax-photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin: 0;
+}
+
+.instax-bezel {
+  display: block;
+  text-align: center;
+  padding: 0.8rem 0.5rem 0.9rem;
+}
+
+.instax-title {
+  display: block;
+  font-family: var(--np-serif);
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #2a2620;
+}
+
+.instax-desc {
+  display: block;
+  font-family: var(--np-serif);
+  font-style: italic;
+  font-size: 0.95rem;
+  line-height: 1.45;
+  margin-top: 0.25rem;
+  color: rgb(42 38 32 / 0.65);
+}
+
+/* in dark mode the print becomes a dark object: charcoal frame, light text */
+.dark .instax {
+  background: #14171a;
+  border-color: rgb(255 255 255 / 0.1);
+  box-shadow: 0 1px 2px rgb(0 0 0 / 0.4), 0 8px 20px rgb(0 0 0 / 0.5);
+}
+
+.dark .instax-photo {
+  background: #14171a;
+}
+
+.dark .instax-title {
+  color: #ececea;
+}
+
+.dark .instax-desc {
+  color: rgb(236 236 234 / 0.6);
 }
 
 /* ---------- Ken Burns on the fixed background image ---------- */

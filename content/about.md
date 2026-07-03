@@ -25,7 +25,7 @@ then it moved on to feeding, sheltering and rehabilitating the homeless
 in Manchester. For this we founded the charity SPIN, with whom we turned a former
 Baptist church into a shelter. After I moved to Berlin I co-founded Lotus Project,
 which brought renewable solar power to villages in remote forests in Vietnam.
-After this my non-profit work became more digital — building websites for other
+After this my non-profit work became more digital: building websites for other
 charities and supporting them with their tech and marketing strategies.
 
 In parallel I'd been practising Buddhism since my early twenties. When the
@@ -38,9 +38,9 @@ advanced Buddhist philosophy. I'm now a fully-ordained monk in the Mūlasarvāst
 These days I split my time three ways. I study advanced philosophy at
 DKCLI as an academic researcher affiliated with Savitribai Phule Pune
 University, on a Khyentse Foundation grant. I write software for the sake of
-the longevity of Buddhism, such as [Offering Bowl](https://offeringbowl.org)
-— a platform that lets lay sponsors support Buddhist monastics directly,
-modernising the ancient practice of *dāna* for the digital age. And I receive
+the longevity of Buddhism, such as [Offering Bowl](https://offeringbowl.org),
+a platform that lets lay sponsors support Buddhist monastics directly and
+modernises the ancient practice of *dāna* for the digital age. And I receive
 monastic and meditation training from some of the best Buddhist monks and teachers
 of today.
 

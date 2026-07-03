@@ -8,6 +8,11 @@
   pageRef = "work"
   weight = 20
 
+[[main]]
+  name = "CV"
+  pageRef = "cv"
+  weight = 25
+
 # Writing lives at middlewaymusings.com — same identity, not a foreign
 # destination, so no target="_blank" attribute (see brief).
 [[main]]

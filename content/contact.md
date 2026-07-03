@@ -12,4 +12,4 @@ Elsewhere:
 - [GitHub](https://github.com/nickpettican)
 - [Instagram](https://instagram.com/middlewaymonk)
 - [Offering Bowl](https://offeringbowl.org)
-- [Middle Way Musings](https://middlewaymusings.com) — my writing
+- [Middle Way Musings](https://middlewaymusings.com) (my writing)

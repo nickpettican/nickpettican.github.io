@@ -19,7 +19,7 @@ against contemporary Western scholarship on emptiness.
 
 ## Building
 
-[Offering Bowl](https://offeringbowl.org) — currently in private beta
+[Offering Bowl](https://offeringbowl.org) is currently in private beta
 with several monasteries. The active engineering work is on sponsor
 onboarding, the payouts pipeline (Stripe Connect across multiple
 jurisdictions is genuinely fiddly), and the monastery-side dashboard.
