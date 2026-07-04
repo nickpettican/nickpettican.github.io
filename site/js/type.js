@@ -10,7 +10,7 @@
   if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
 
   var words = ["NICOLAS_PETTICAN", "TENPA_BHIKSHU"];
-  var typeSpeed = 85, deleteSpeed = 40, holdFull = 5000, holdEmpty = 550;
+  var typeSpeed = 85, deleteSpeed = 40, holdFull = 10000, holdEmpty = 550;
 
   // Start holding the full first word (already in the HTML), then delete it.
   var wordIndex = 0, charIndex = words[0].length, deleting = true;

@@ -17,8 +17,8 @@
   var enEl = scrPec.querySelector(".line-en");
 
   var CODE = "def karma(action):\n  return action\n\nmiddle_way = float('-inf') < 0 < float('inf')";
-  var BO = "འདི་སྐད་བདག་གིས་ཐོས་པ་དུས་གཅིག་ན། བཅོམ་ལྡན་འདས་རྒྱལ་པོའི་ཁབ།";
-  var EN = "Thus have I heard at one time, the Blessed One was in Rajagriha";
+  var BO = "འདི་སྐད་བདག་གིས་ཐོས་པ་དུས་གཅིག་ན།\nབཅོམ་ལྡན་འདས་རྒྱལ་པོའི་ཁབ།";
+  var EN = "Thus have I heard at one time,\nthe Blessed One was in Rajagriha";
 
   var each = function (list, fn) { Array.prototype.forEach.call(list, fn); };
   var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -93,7 +93,7 @@
       await draw(laptop);
       await sleep(150);
       await type(codeEl, CODE, 55);
-      await sleep(1900);
+      await sleep(5000);
       await untype(codeEl, 28);
       caret(null);
       scrLap.classList.remove("on");
@@ -106,7 +106,7 @@
       await type(boEl, BO, 42);
       await sleep(450);
       await type(enEl, EN, 32);
-      await sleep(2600);
+      await sleep(5000);
       await untype(enEl, 18);
       await untype(boEl, 16);
       caret(null);
